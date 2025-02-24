@@ -6,16 +6,16 @@ A web application built using **React.js** that calculates and displays rewards 
 
 - [Technologies Used](#technologies-used)
 - [Approach](#approach)
-- [Directory Structure](#directory-structure)
+
 - [Key Components](#key-components)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
+
+
+
 - [Screenshots](#screenshots)
 - [Testing](#testing)
-- [Errors and Troubleshooting](#errors-and-troubleshooting)
+
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Technologies Used
 - **React.js** - Frontend framework
@@ -64,16 +64,32 @@ last three months
 
 
 All Transactions
+<img src="./public/assets/AllTransactions.png" alt="Screenshot" width="400" />
 
+Monthly Transactions
+<img src="./public/assets/MonthlyTransactions.png" alt="Screenshot" width="400" />
+
+TotalTransactions(Consecutive last three months)
+<img src="./public/assets/TotalTransactions.png" alt="Screenshot" width="400" />
+
+No Data Available
 <img src="./public/assets/NoDataAvailable.png" alt="Screenshot" width="400" />
+
+Loader while fetching data
+<img src="./public/assets/loader.png" alt="Screenshot" width="400" />
+
+Error handling when wrong api hit
+
+<img src="./public/assets/Errorforwrong url.png" alt="Screenshot" width="400" />
 ## Testing
 This project includes **unit tests** using **Jest and React Testing Library**.
 
 ### Run tests:
 ```sh
-npm test
+npm run test
 ```
 
+<img src="./public/assets/testcases.png" alt="Screenshot" width="400" />
 
 
 

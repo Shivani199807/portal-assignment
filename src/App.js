@@ -29,7 +29,10 @@ const {transactions,monthlyRewards,totalConsecutiveRewards,loading,error}=useRew
         <AllTransactions transactions={transactions}></AllTransactions>
         <MonthlyRewardPoints transactions={monthlyRewards}/>
         <TotalRewardsPoints transactions={totalConsecutiveRewards}/>
-      </header>)}
+      </header>
+    
+    
+    )}
     </div>)}
     </>
   );
