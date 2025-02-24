@@ -1,0 +1,211 @@
+[
+    {
+      "transactionId": 4092,
+      "customerId": 20010,
+      "customerName": "Amit Tiwari",
+      "purchaseDate": "2024-02-12",
+      "productPurchased": "Mechanical Keyboard",
+      "price": 120
+    },
+    {
+      "transactionId": 4012,
+      "customerId": 20002,
+      "customerName": "Ayesha Kapoor",
+      "purchaseDate": "2024-02-14",
+      "productPurchased": "Tablet",
+      "price": 110.99
+    },
+    {
+      "transactionId": 4022,
+      "customerId": 20003,
+      "customerName": "Neeraj Verma",
+      "purchaseDate": "2024-03-18",
+      "productPurchased": "Router",
+      "price": 85
+    },
+    {
+      "transactionId": 4081,
+      "customerId": 20009,
+      "customerName": "Preeti Malhotra",
+      "purchaseDate": "2024-03-11",
+      "productPurchased": "Smartphone",
+      "price": 875
+    },
+    {
+      "transactionId": 4061,
+      "customerId": 20007,
+      "customerName": "Nisha Rao",
+      "purchaseDate": "2024-04-15",
+      "productPurchased": "Portable Speaker",
+      "price": 99.99
+    },
+    {
+      "transactionId": 4101,
+      "customerId": 20011,
+      "customerName": "Megha Kulkarni",
+      "purchaseDate": "2023-06-05",
+      "productPurchased": "Wireless Charger",
+      "price": 45
+    },
+    {
+      "transactionId": 4091,
+      "customerId": 20010,
+      "customerName": "Amit Tiwari",
+      "purchaseDate": "2024-01-10",
+      "productPurchased": "Gaming Mouse",
+      "price": 60
+    },
+    {
+      "transactionId": 4041,
+      "customerId": 20005,
+      "customerName": "Kunal Mehta",
+      "purchaseDate": "2023-12-22",
+      "productPurchased": "Desk Lamp",
+      "price": 40
+    },
+    {
+      "transactionId": 4071,
+      "customerId": 20008,
+      "customerName": "Rahul Desai",
+      "purchaseDate": "2023-02-21",
+      "productPurchased": "Electric Kettle",
+      "price": 55.5
+    },
+    {
+      "transactionId": 4011,
+      "customerId": 20002,
+      "customerName": "Ayesha Kapoor",
+      "purchaseDate": "2024-10-25",
+      "productPurchased": "Wireless Earbuds",
+      "price": 130.75
+    },
+    {
+      "transactionId": 4003,
+      "customerId": 20001,
+      "customerName": "Vikram Singh",
+      "purchaseDate": "2024-12-08",
+      "productPurchased": "Smart Watch",
+      "price": 200.5
+    },
+    {
+      "transactionId": 4050,
+      "customerId": 20001,
+      "customerName": "Vikram Singh",
+      "purchaseDate": "2024-04-08",
+      "productPurchased": "Smart Watch",
+      "price": 200
+    },
+    {
+      "transactionId": 4032,
+      "customerId": 20004,
+      "customerName": "Ritika Sharma",
+      "purchaseDate": "2024-12-06",
+      "productPurchased": "Noise Cancelling Headphones",
+      "price": 200
+    },
+    {
+      "transactionId": 4021,
+      "customerId": 20003,
+      "customerName": "Neeraj Verma",
+      "purchaseDate": "2024-06-30",
+      "productPurchased": "Bluetooth Mouse",
+      "price": 45.99
+    },
+    {
+      "transactionId": 4001,
+      "customerId": 20001,
+      "customerName": "Vikram Singh",
+      "purchaseDate": "2024-12-22",
+      "productPurchased": "Laptop",
+      "price": 1250.75
+    },
+    {
+      "transactionId": 4103,
+      "customerId": 20011,
+      "customerName": "Megha Kulkarni",
+      "purchaseDate": "2023-08-18",
+      "productPurchased": "Bluetooth Earbuds",
+      "price": 89.99
+    },
+    {
+      "transactionId": 4093,
+      "customerId": 20010,
+      "customerName": "Amit Tiwari",
+      "purchaseDate": "2024-03-15",
+      "productPurchased": "Gaming Chair",
+      "price": 250
+    },
+    {
+      "transactionId": 4002,
+      "customerId": 20001,
+      "customerName": "Vikram Singh",
+      "purchaseDate": "2022-07-15",
+      "productPurchased": "Tablet",
+      "price": 80.99
+    },
+    {
+      "transactionId": 4083,
+      "customerId": 20009,
+      "customerName": "Preeti Malhotra",
+      "purchaseDate": "2023-07-02",
+      "productPurchased": "Mechanical Keyboard",
+      "price": 79.99
+    },
+    {
+      "transactionId": 4062,
+      "customerId": 20007,
+      "customerName": "Nisha Rao",
+      "purchaseDate": "2022-12-20",
+      "productPurchased": "Blender",
+      "price": 130
+    },
+    {
+      "transactionId": 4051,
+      "customerId": 20006,
+      "customerName": "Sandeep Joshi",
+      "purchaseDate": "2024-01-10",
+      "productPurchased": "Printer",
+      "price": 300
+    },
+    {
+      "transactionId": 4004,
+      "customerId": 20001,
+      "customerName": "Vikram Singh",
+      "purchaseDate": "2024-11-25",
+      "productPurchased": "Phone",
+      "price": 950
+    },
+    {
+      "transactionId": 4102,
+      "customerId": 20011,
+      "customerName": "Megha Kulkarni",
+      "purchaseDate": "2023-07-10",
+      "productPurchased": "Tablet Case",
+      "price": 25
+    },
+    {
+      "transactionId": 4082,
+      "customerId": 20009,
+      "customerName": "Preeti Malhotra",
+      "purchaseDate": "2024-11-25",
+      "productPurchased": "Electric Heater",
+      "price": 199.99
+    },
+    {
+      "transactionId": 4031,
+      "customerId": 20004,
+      "customerName": "Ritika Sharma",
+      "purchaseDate": "2024-08-10",
+      "productPurchased": "Phone",
+      "price": 675
+    },
+    {
+      "transactionId": 4042,
+      "customerId": 20005,
+      "customerName": "Kunal Mehta",
+      "purchaseDate": "2024-09-29",
+      "productPurchased": "Office Chair",
+      "price": 150
+    }
+  ]
+  
