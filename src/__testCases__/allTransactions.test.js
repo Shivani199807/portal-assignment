@@ -10,7 +10,7 @@ const mockTransactions=[
       "customerName": "Neeraj Verma",
       "purchaseDate": "2024-03-18",
       "productPurchased": "Router",
-      "price": 85
+      "price": 85,
     },
     {
       "transactionId": 4081,
@@ -131,7 +131,7 @@ test('renders transactions table with data ', () => {
   
   });
   
-  ;
+  
   test("renders heading correctly", () => {
     render(<AllTransactions transactions={mockTransactions} />);
 

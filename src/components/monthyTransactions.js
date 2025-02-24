@@ -1,7 +1,7 @@
 import Table from "./table";
 import Heading from "./heading";
 import PropTypes from "prop-types";
-export const columns=[
+export const columns = [
     'Customer ID',
     'Name',
     'Month',
@@ -10,10 +10,10 @@ export const columns=[
 ]
 const MonthlyRewardPoints = ({ transactions }) => {
     return (
-       <>
-       <Heading text={"Monthly Transactions"}/>
-       <Table  columns={columns} data={transactions}/>
-           </>
+        <>
+            <Heading text={"Monthly Transactions"} />
+            <Table columns={columns} data={transactions} />
+        </>
     )
 }
 MonthlyRewardPoints.propTypes = {
@@ -28,4 +28,4 @@ MonthlyRewardPoints.propTypes = {
     ).isRequired
 };
 
-export default MonthlyRewardPoints ;
+export default MonthlyRewardPoints;

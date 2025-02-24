@@ -6,7 +6,7 @@ export const columns = [
     'Total Reward Points',
 ]
 const TotalRewardsPoints = ({ transactions }) => {
-       return (
+    return (
         <>
             <Heading text={"Total Rewards(Last Three Consecutive Months)"} />
             <Table columns={columns} data={transactions} excludeKeys={['customerId']} />

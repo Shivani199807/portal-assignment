@@ -132,7 +132,7 @@ test('renders transactions table with data ', () => {
   
   });
   
-  ;
+  
   test("renders heading correctly", () => {
     render(<TotalRewardsPoints transactions={mockTransactions} />);
 

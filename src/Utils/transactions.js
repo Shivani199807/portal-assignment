@@ -1,16 +1,16 @@
 import rewardPoints from "./rewardPoints";
 import sortData from "./sortData";
-const transactions=(data)=>{
+const transactions = (data) => {
 
-const transactionsResult=    data.map((item)=>
+    const transactionsResult = data.map((item) =>
     ({
         ...item,
-        rewardPoints:rewardPoints(item)
+        rewardPoints: rewardPoints(item)
 
     })
-    
+
     )
-return sortData(transactionsResult)
+    return sortData(transactionsResult)
 }
 
 export default transactions;

@@ -50,13 +50,6 @@ last three months
 - **`heading.js`** - For displaying the headings
  
 
-
-
-
-
-
-
-
 ## Screenshots
 - **Main Page - All Transactions**
 - **Main Page - Total Monthly Rewards (Customer Wise)**
@@ -64,18 +57,28 @@ last three months
 
 
 All Transactions
+
+
 <img src="./public/assets/AllTransactions.png" alt="Screenshot" width="400" />
 
 Monthly Transactions
+
+
 <img src="./public/assets/MonthlyTransactions.png" alt="Screenshot" width="400" />
 
 TotalTransactions(Consecutive last three months)
+
+
 <img src="./public/assets/TotalTransactions.png" alt="Screenshot" width="400" />
 
 No Data Available
+
+
 <img src="./public/assets/NoDataAvailable.png" alt="Screenshot" width="400" />
 
 Loader while fetching data
+
+
 <img src="./public/assets/loader.png" alt="Screenshot" width="400" />
 
 Error handling when wrong api hit
@@ -91,10 +94,11 @@ npm run test
 
 <img src="./public/assets/testcases.png" alt="Screenshot" width="400" />
 
+Eslintric
 
 
 
-
+<img src="./public/assets/eslintric.png" alt="Screenshot" width="400" />
 
 ## Contributing
 Pull requests are welcome! Follow these steps:

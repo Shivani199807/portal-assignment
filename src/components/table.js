@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const Table = ({ columns, data, excludeKeys = [] }) => {
 
 
-    const columnKeys =data.length>0 && Object.keys(data[0]).filter((key) => !excludeKeys.includes(key));
+    const columnKeys = data.length > 0 && Object.keys(data[0]).filter((key) => !excludeKeys.includes(key));
 
     return (
         <div className="table-container">
@@ -22,7 +22,7 @@ const Table = ({ columns, data, excludeKeys = [] }) => {
                         data.map((row, rowIndex) => (
                             <tr key={rowIndex}>
                                 {columnKeys.map((col, colIndex) => (
-                                    <td   data-testid={`cell-${rowIndex}-${colIndex}`} key={colIndex}>{row[col]}</td>
+                                    <td data-testid={`cell-${rowIndex}-${colIndex}`} key={colIndex}>{row[col]}</td>
                                 ))}
                             </tr>
                         ))

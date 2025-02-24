@@ -23,9 +23,9 @@ export const monthlyRewardPoints = (transactions) => {
 
 
     )
-    data.sort((a,b)=>{
-        if(a.customerId!==b.customerId) return a.customerId-b.customerId;
-        
+   data && data.sort((a,b)=>{
+        if(a.customerId!==b.customerId) {return a.customerId-b.customerId}
+       
     })
     return sortData(data);
 }

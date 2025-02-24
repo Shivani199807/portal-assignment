@@ -1,7 +1,7 @@
 export const lastThreeMonthsRewardPoints = (monthlyRewards) => {
     const currentDate = new Date();
     const currentYear = currentDate.getFullYear();
-    const currentMonth = currentDate.getMonth() + 1; 
+    const currentMonth = currentDate.getMonth() + 1;
 
     // Define last 3 consecutive months 
     const lastThreeMonthsSet = new Set([
@@ -10,7 +10,7 @@ export const lastThreeMonthsRewardPoints = (monthlyRewards) => {
         `${currentMonth - 2 <= 0 ? currentYear - 1 : currentYear}-${(currentMonth - 2 + 12) % 12 || 12}`,
     ]);
 
-  //Extract all unique customers
+    //Extract all unique customers
     const allCustomers = monthlyRewards.reduce((acc, { customerId, customerName }) => {
         if (!acc[customerId]) {
             acc[customerId] = { customerId, customerName, totalRewardPoints: 0 }; // Default to 0

@@ -4,7 +4,7 @@ export const fetchRewardData = async (url) => {
     try {
         const fetchData = await fetch(`${url}`);
         if (!fetchData.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
+            throw new Error(`HTTP error! Status: ${fetchData.status}`);
         }
         const response = await fetchData.json();
 

@@ -1,7 +1,7 @@
 import Heading from "./heading";
 import Table from "./table";
 import PropTypes from "prop-types";
-export const columns=[
+export const columns = [
     'Transaction ID',
     'Customer Name',
     'Purchase Date',
@@ -11,14 +11,14 @@ export const columns=[
 ]
 
 const AllTransactions = ({ transactions }) => {
-   
+
     return (
         <>
-<Heading text={"All Transactions"} />
+            <Heading text={"All Transactions"} />
 
-<Table columns={columns} data={transactions} excludeKeys={['customerId']}/>
-         
-            </>
+            <Table columns={columns} data={transactions} excludeKeys={['customerId']} />
+
+        </>
     )
 }
 AllTransactions.propTypes = {
