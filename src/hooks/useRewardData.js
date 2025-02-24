@@ -6,7 +6,7 @@ import { lastThreeMonthsRewardPoints } from "../Utils/totalRewardsPoints";
 import logger from "../Utils/logger";
 const useRewardData = () => {
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useState('');
+    const [error, setError] = useState(null);
     const [result, setResult] = useState({
         transactions: [],
         monthlyRewards: [],
@@ -14,14 +14,13 @@ const useRewardData = () => {
     })
     const fetchData = async () => {
         setLoading(true);
-
+setError(null)
         try {
 
             const output = await fetchRewardData('./data/rewardsData.json');
-
-            if (output.length === 0) {
-                return `<div>No Data Found</div>`
-            } else {
+            if (!output || output.length === 0) {
+            throw new Error('No transaction data available');
+              }
 
                 const transactionsData = transactions(output);
                 const monthlyRewards = monthlyRewardPoints(transactionsData);
@@ -32,11 +31,11 @@ const useRewardData = () => {
                     monthlyRewards: monthlyRewards,
                     totalConsecutiveRewards: totalRewardPoints
                 })
-            }
+            
 
         } catch (err) {
-            logger.error(`Error  ${error.message}`);
-            setError(err)
+            logger.error(`Error  ${err.message}`);
+            setError(err.message)
 
         } finally {
             setLoading(false)

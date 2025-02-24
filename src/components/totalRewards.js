@@ -1,7 +1,7 @@
 import Table from "./table";
 import Heading from "./heading";
 import PropTypes from "prop-types";
-const columns = [
+export const columns = [
     'Customer Name',
     'Total Reward Points',
 ]

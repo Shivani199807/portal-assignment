@@ -1,71 +1,90 @@
-# portal-assignment
-# Getting Started with Create React App
+# Rewards App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application built using **React.js** that calculates and displays rewards points for transactions. It takes a list of customer transactions, computes reward points based on transaction data,total rewards and monthly rewards  for each customer.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Technologies Used](#technologies-used)
+- [Approach](#approach)
+- [Directory Structure](#directory-structure)
+- [Key Components](#key-components)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Testing](#testing)
+- [Errors and Troubleshooting](#errors-and-troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Technologies Used
+- **React.js** - Frontend framework
+- **ESLint** - JavaScript linting
+- **Babel** - Transpiling modern JavaScript and JSX
+- **PropTypes** - Type-checking for React props
+- **JavaScript (ES6+)** - For clean and modern coding
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Approach
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Used Reduce and map method instead of for loops
+2. Fetched the data with error handling
+3. Calculated transactions with its reward points
+4. Then Calulcated the monthly transactions and sorted them in descending order for each customer
+5. Then Calulcated the consecutive last three months total reward points of each customer and kept 0 for customers with no transactions in
+last three months
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Key Components
+- **`src/index.js`** - Entry point of the React application.
+- **`src/App.js`** - Main app structure containing tables for transactions, rewards, and summary.
+- **`monthlyTransactions.js`** - Displays user monthly rewards.
+- **`allTransactions.js`** - Shows a table of transactions.
+- **`totalRewards.js`** - Displays total rewards in last three consective months per customer.
+- **`rewardPoints.js`** - Computes reward points based on transactions.
+- **`monthlyRewards.js`** - Logic for monthly reward calculations.
+- **`totalRewardPoints.js`** - Computes total rewards for the last three months.
+-**`sortData.js`** - Sort data in terms of year month and date.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **`table.js`** - comman table for rendering the reward points and transactions.
+- **`heading.js`** - For displaying the headings
+ 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Screenshots
+- **Main Page - All Transactions**
+- **Main Page - Total Monthly Rewards (Customer Wise)**
+- **Main Page - Total Rewards for Last Three Consecutive Months**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+All Transactions
 
-### Code Splitting
+<img src="./public/assets/NoDataAvailable.png" alt="Screenshot" width="400" />
+## Testing
+This project includes **unit tests** using **Jest and React Testing Library**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Run tests:
+```sh
+npm test
+```
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Contributing
+Pull requests are welcome! Follow these steps:
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-branch`
+3. Commit changes: `git commit -m "Add new feature"`
+4. Push: `git push origin feature-branch`
+5. Open a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

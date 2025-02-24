@@ -1,17 +1,9 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import AllTransactions from '../components/allTransactions';
-import { columns } from '../components/allTransactions';
+import TotalRewardsPoints from '../components/totalRewards';
+import { columns } from '../components/totalRewards';
 const mockTransactions=[
-   
-    {
-      "transactionId": 4022,
-      "customerId": 20003,
-      "customerName": "Neeraj Verma",
-      "purchaseDate": "2024-03-18",
-      "productPurchased": "Router",
-      "price": 85
-    },
+    
     {
       "transactionId": 4081,
       "customerId": 20009,
@@ -100,12 +92,21 @@ const mockTransactions=[
       "productPurchased": "Bluetooth Mouse",
       "price": 45.99
     },
+    {
+      "transactionId": 4001,
+      "customerId": 20001,
+      "customerName": "Vikram Singh",
+      "purchaseDate": "2024-12-22",
+      "productPurchased": "Laptop",
+      "price": 1250.75
+    },
+  
    
   ]
   
   
 test('renders transactions table with data ', () => {
-    render(<AllTransactions transactions={mockTransactions} />);
+    render(<TotalRewardsPoints transactions={mockTransactions} />);
  
   
     const excludeKeys = ["customerId"]; // Define excludeKeys properly
@@ -123,8 +124,8 @@ test('renders transactions table with data ', () => {
     });
   });
   test('renders transactions table with columns', () => {
-    render(<AllTransactions transactions={mockTransactions} />);
-    columns.forEach((columns)=>{
+    render(<TotalRewardsPoints transactions={mockTransactions} />);
+   columns && columns.forEach((columns)=>{
         expect(screen.getByText(columns)).toBeInTheDocument();
     })
   
@@ -133,14 +134,14 @@ test('renders transactions table with data ', () => {
   
   ;
   test("renders heading correctly", () => {
-    render(<AllTransactions transactions={mockTransactions} />);
+    render(<TotalRewardsPoints transactions={mockTransactions} />);
 
    
     const headingElement = screen.getByTestId("heading");
     expect(headingElement).toBeInTheDocument();
 
     
-    expect(headingElement).toHaveTextContent("All Transactions", { exact: true }); 
+    expect(headingElement).toHaveTextContent("Total Rewards(Last Three Consecutive Months)", { exact: true }); 
 
    
   });

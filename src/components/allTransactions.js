@@ -1,7 +1,7 @@
 import Heading from "./heading";
 import Table from "./table";
 import PropTypes from "prop-types";
-const columns=[
+export const columns=[
     'Transaction ID',
     'Customer Name',
     'Purchase Date',
