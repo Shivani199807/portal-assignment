@@ -6,7 +6,7 @@ import MonthlyRewardPoints from "./components/monthyTransactions";
 import TotalRewardsPoints from "./components/totalRewards";
 import Loader from "./components/loader";
 import DateComponent from "./components/dateComponent";
-import ErrorBoundary from "./components/errorBoundary";
+import ErrorBoundary from "./components/errBoundary";
 import { Container } from "@mui/material";
 
 /**
