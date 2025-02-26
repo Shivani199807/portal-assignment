@@ -1,47 +1,59 @@
 import React from "react";
 import "../styles/table.css";
 import PropTypes from "prop-types";
+import { DataGrid } from "@mui/x-data-grid";
+import Box from "@mui/material/Box";
 
-const Table = ({ columns, data, excludeKeys = [] }) => {
-
-
-    const columnKeys = data.length > 0 && Object.keys(data[0]).filter((key) => !excludeKeys.includes(key));
-
-    return (
-        <div className="table-container">
-            <table className="custom-table">
-                <thead>
-                    <tr>
-                        {columns.map((column, index) => (
-                            <th key={index} data-testid={`column-${index}`}>{column}</th>
-                        ))}
-                    </tr>
-                </thead>
-                <tbody>
-                    {data && data.length > 0 ? (
-                        data.map((row, rowIndex) => (
-                            <tr key={rowIndex}>
-                                {columnKeys.map((col, colIndex) => (
-                                    <td data-testid={`cell-${rowIndex}-${colIndex}`} key={colIndex}>{row[col]}</td>
-                                ))}
-                            </tr>
-                        ))
-                    ) : (
-                        <tr>
-                            <td colSpan={columns.length} className="no-data">
-                                No data available
-                            </td>
-                        </tr>
-                    )}
-                </tbody>
-            </table>
-        </div>
-    );
+/**
+ 
+ * This component renders a table using Material UI's DataGrid.
+ * 
+ * @param {Object} props -table props
+ * @param {Array}  props.rows // rows containing data
+ * @param {Array} props.column // columns contain header data
+ * @param {String} [props.dataTestId]  // unique id for elements
+ * @returns {JSX.Element}  // component table return 
+ */
+const Table = ({ rows, column, dataTestId }) => {
+  return (
+    <Box
+      sx={{
+        "& .tableHeader": {
+          backgroundColor: "grey",
+          color: "#000000",
+          fontWeight: "bold",
+        },
+      }}
+    >
+      <DataGrid
+        rows={rows}
+        columns={column}
+        pageSizeOptions={[5]}
+        sx={{
+          "& .MuiDataGrid-cell": {
+            padding: 2,
+          },
+        }}
+        initialState={{
+          pagination: {
+            paginationModel: {
+              pageSize: 5,
+            },
+          },
+        }}
+        data-testid={dataTestId}
+        disableColumnFilter
+        disableColumnMenu
+        disableDensitySelector
+        disableColumnResize
+        showCellVerticalBorder
+      />
+    </Box>
+  );
 };
 Table.propTypes = {
-    columns: PropTypes.array.isRequired,
-    data: PropTypes.array.isRequired,
-    excludeKeys: PropTypes.array
+  columns: PropTypes.array.isRequired,
+  data: PropTypes.array.isRequired,
 };
 
 export default Table;

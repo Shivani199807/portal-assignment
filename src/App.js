@@ -1,40 +1,49 @@
+import React from "react";
+import "./App.css";
+import useRewardData from "./hooks/useRewardData";
+import AllTransactions from "./components/allTransactions";
+import MonthlyRewardPoints from "./components/monthyTransactions";
+import TotalRewardsPoints from "./components/totalRewards";
+import Loader from "./components/loader";
+import DateComponent from "./components/dateComponent";
+import ErrorBoundary from "./components/errorBoundary";
+import { Container } from "@mui/material";
 
-import React from 'react';
-import './App.css';
-
-import useRewardData from './hooks/useRewardData';
-import AllTransactions from './components/allTransactions';
-import MonthlyRewardPoints from './components/monthyTransactions';
-import TotalRewardsPoints from './components/totalRewards';
-import Loader from './Utils/loader';
+/**
+ * The main application component that manages and displays transaction data, reward points,
+ * and filtering functionality.
+ *
+ * @returns {JSX.Element} The main application Page.
+ */
 function App() {
+  const { result, loading, error, dateFilter, setDateFilter, fetchData } =
+    useRewardData();
 
-  const { transactions, monthlyRewards, totalConsecutiveRewards, loading, error } = useRewardData();
+  return (
+    <>
+      <ErrorBoundary error={error}>
+        <div className="App">
+          {loading ? (
+            <Loader />
+          ) : (
+            <Container>
+              <div style={{ fontSize: "40px", fontWeight: "bold" }}>
+                Reward Program
+              </div>
+              <DateComponent
+                dateFilter={dateFilter}
+                setDateFilter={setDateFilter}
+                fetchData={fetchData}
+              />
 
-  return (<>
-    {error ? (
-      <div className="error-message">
-        <strong>Error:</strong> {error}
-      </div>
-    ) : (
-      <div className="App">
-
-        {loading ? (
-
-          <Loader />
-
-
-        ) : (
-          <header className="App-header">
-            <AllTransactions transactions={transactions}></AllTransactions>
-            <MonthlyRewardPoints transactions={monthlyRewards} />
-            <TotalRewardsPoints transactions={totalConsecutiveRewards} />
-          </header>
-
-
-        )}
-      </div>)}
-  </>
+              <AllTransactions totalTransactions={result}></AllTransactions>
+              <MonthlyRewardPoints monthlyTransactions={result} />
+              <TotalRewardsPoints transactions={result} />
+            </Container>
+          )}
+        </div>
+      </ErrorBoundary>
+    </>
   );
 }
 

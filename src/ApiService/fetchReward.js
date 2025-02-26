@@ -1,19 +1,15 @@
-
 import logger from "../Utils/logger";
 export const fetchRewardData = async (url) => {
-    try {
-        const fetchData = await fetch(`${url}`);
-        if (!fetchData.ok) {
-            throw new Error(`HTTP error! Status: ${fetchData.status}`);
-        }
-        const response = await fetchData.json();
-
-
-        return response
+  try {
+    const fetchData = await fetch(`${url}`);
+    if (!fetchData.ok) {
+      throw new Error(`HTTP error! Status: ${fetchData.status}`);
     }
+    const response = await fetchData.json();
 
-    catch (error) {
-        logger.error(`${error}`)
-        throw error
-    }
-}
+    return response;
+  } catch (error) {
+    logger.error(`${error}`);
+    throw error;
+  }
+};

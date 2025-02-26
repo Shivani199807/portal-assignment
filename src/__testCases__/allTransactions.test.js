@@ -1,149 +1,63 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import AllTransactions from '../components/allTransactions';
-import { columns } from '../components/allTransactions';
-const mockTransactions=[
-   
-    {
-      "transactionId": 4022,
-      "customerId": 20003,
-      "customerName": "Neeraj Verma",
-      "purchaseDate": "2024-03-18",
-      "productPurchased": "Router",
-      "price": 85,
-    },
-    {
-      "transactionId": 4081,
-      "customerId": 20009,
-      "customerName": "Preeti Malhotra",
-      "purchaseDate": "2024-03-11",
-      "productPurchased": "Smartphone",
-      "price": 875
-    },
-    {
-      "transactionId": 4061,
-      "customerId": 20007,
-      "customerName": "Nisha Rao",
-      "purchaseDate": "2024-04-15",
-      "productPurchased": "Portable Speaker",
-      "price": 99.99
-    },
-    {
-      "transactionId": 4101,
-      "customerId": 20011,
-      "customerName": "Megha Kulkarni",
-      "purchaseDate": "2023-06-05",
-      "productPurchased": "Wireless Charger",
-      "price": 45
-    },
-    {
-      "transactionId": 4091,
-      "customerId": 20010,
-      "customerName": "Amit Tiwari",
-      "purchaseDate": "2024-01-10",
-      "productPurchased": "Gaming Mouse",
-      "price": 60
-    },
-    {
-      "transactionId": 4041,
-      "customerId": 20005,
-      "customerName": "Kunal Mehta",
-      "purchaseDate": "2023-12-22",
-      "productPurchased": "Desk Lamp",
-      "price": 40
-    },
-    {
-      "transactionId": 4071,
-      "customerId": 20008,
-      "customerName": "Rahul Desai",
-      "purchaseDate": "2023-02-21",
-      "productPurchased": "Electric Kettle",
-      "price": 55.5
-    },
-    {
-      "transactionId": 4011,
-      "customerId": 20002,
-      "customerName": "Ayesha Kapoor",
-      "purchaseDate": "2024-10-25",
-      "productPurchased": "Wireless Earbuds",
-      "price": 130.75
-    },
-    {
-      "transactionId": 4003,
-      "customerId": 20001,
-      "customerName": "Vikram Singh",
-      "purchaseDate": "2024-12-08",
-      "productPurchased": "Smart Watch",
-      "price": 200.5
-    },
-    {
-      "transactionId": 4050,
-      "customerId": 20001,
-      "customerName": "Vikram Singh",
-      "purchaseDate": "2024-04-08",
-      "productPurchased": "Smart Watch",
-      "price": 200
-    },
-    {
-      "transactionId": 4032,
-      "customerId": 20004,
-      "customerName": "Ritika Sharma",
-      "purchaseDate": "2024-12-06",
-      "productPurchased": "Noise Cancelling Headphones",
-      "price": 200
-    },
-    {
-      "transactionId": 4021,
-      "customerId": 20003,
-      "customerName": "Neeraj Verma",
-      "purchaseDate": "2024-06-30",
-      "productPurchased": "Bluetooth Mouse",
-      "price": 45.99
-    },
-   
-  ]
-  
-  
-test('renders transactions table with data ', () => {
-    render(<AllTransactions transactions={mockTransactions} />);
- 
-  
-    const excludeKeys = ["customerId"]; // Define excludeKeys properly
-    const columnKeys = Object.keys(mockTransactions[0]).filter(
-      (key) => !excludeKeys.includes(key)
-    );
-  
-    
-    mockTransactions.forEach((transaction, rowIndex) => {
-      columnKeys.forEach((col, colIndex) => {
-        expect(screen.getByTestId(`cell-${rowIndex}-${colIndex}`)).toBeInTheDocument();
-      });
-  
-   
-    });
-  });
-  test('renders transactions table with columns', () => {
-    render(<AllTransactions transactions={mockTransactions} />);
-    columns.forEach((columns)=>{
-        expect(screen.getByText(columns)).toBeInTheDocument();
-    })
-  
-  
-  });
-  
-  
-  test("renders heading correctly", () => {
-    render(<AllTransactions transactions={mockTransactions} />);
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import AllTransactions from "../components/allTransactions";
 
-   
-    const headingElement = screen.getByTestId("heading");
-    expect(headingElement).toBeInTheDocument();
+const mockTransactions = [
+  {
+    transactionId: 4092,
+    customerId: 10000,
+    customerName: "Amit Tiwari",
+    purchaseDate: "06/14/2024",
+    productPurchased: "Monitor",
+    price: 48.0,
+  },
+  {
+    transactionId: 4093,
+    customerId: 10001,
+    customerName: "Vikram Singh",
+    purchaseDate: "03/26/2022",
+    productPurchased: "Mouse",
+    price: 459.601618051525,
+  },
+  {
+    transactionId: 4094,
+    customerId: 10002,
+    customerName: "Ayesha Kapoor",
+    purchaseDate: "04/10/2023",
+    productPurchased: "Tablet",
+    price: 919.6585371654922,
+  },
+  {
+    transactionId: 4095,
+    customerId: 10003,
+    customerName: "Neeraj Verma",
+    purchaseDate: "03/20/2022",
+    productPurchased: "Router",
+    price: 287.14439283274567,
+  },
+  {
+    transactionId: 4096,
+    customerId: 10001,
+    customerName: "Vikram Singh",
+    purchaseDate: "12/20/2023",
+    productPurchased: "Laptop",
+    price: 633.9281875676744,
+  },
+];
 
-    
-    expect(headingElement).toHaveTextContent("All Transactions", { exact: true }); 
+test("renders transactions table data", () => {
+  render(
+    <AllTransactions totalTransactions={mockTransactions}></AllTransactions>
+  );
 
-   
-  });
-  
-  
-  
+  expect(screen.getByTestId("allTransactions")).toBeInTheDocument();
+});
+
+test("renders heading correctly", () => {
+  render(<AllTransactions transactions={mockTransactions} />);
+
+  const headingElement = screen.getByTestId("heading");
+  expect(headingElement).toBeInTheDocument();
+
+  expect(headingElement).toHaveTextContent("All Transactions", { exact: true });
+});

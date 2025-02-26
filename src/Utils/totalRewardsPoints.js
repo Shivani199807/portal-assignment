@@ -1,38 +1,44 @@
+import { monthlyRewardPoints } from "./monthlyRewardPoints";
+/**
+ * Calculates the total reward points for each customer over the last three months.
+ *
+ * @param {Array} monthlyRewards - An array of transaction data for the last three months.
+ * @param {string} monthlyRewards[].customerId - The unique identifier for the customer.
+ * @param {string} monthlyRewards[].customerName - The name of the customer.
+ * @param {number} monthlyRewards[].totalRewardPoints - The reward points earned by the customer in a given month.
+ *
+ * @returns {Array} An array of objects containing customerId,customerName,totalRewardPoints,id
+ *
+ */
 export const lastThreeMonthsRewardPoints = (monthlyRewards) => {
-    const currentDate = new Date();
-    const currentYear = currentDate.getFullYear();
-    const currentMonth = currentDate.getMonth() + 1;
+  const monthlyRewardsPoint = monthlyRewardPoints(monthlyRewards);
 
-    // Define last 3 consecutive months 
-    const lastThreeMonthsSet = new Set([
-        `${currentYear}-${currentMonth}`,
-        `${currentMonth - 1 <= 0 ? currentYear - 1 : currentYear}-${(currentMonth - 1 + 12) % 12 || 12}`,
-        `${currentMonth - 2 <= 0 ? currentYear - 1 : currentYear}-${(currentMonth - 2 + 12) % 12 || 12}`,
-    ]);
+  const allCustomers = monthlyRewardsPoint.reduce(
+    (acc, { customerId, customerName }) => {
+      if (!acc[customerId]) {
+        acc[customerId] = { customerId, customerName, totalRewardPoints: 0 }; // Default to 0
+      }
+      return acc;
+    },
+    {}
+  );
 
-    //Extract all unique customers
-    const allCustomers = monthlyRewards.reduce((acc, { customerId, customerName }) => {
-        if (!acc[customerId]) {
-            acc[customerId] = { customerId, customerName, totalRewardPoints: 0 }; // Default to 0
-        }
-        return acc;
-    }, {});
+  // Aggregate reward points for each customer
+  const rewardsData = monthlyRewardsPoint.reduce(
+    (acc, { customerId, totalRewardPoints }) => {
+      const key = `${customerId}`;
 
-    // Calculate reward points for last 3 months
-    const rewardsData = monthlyRewards.reduce((acc, { customerId, year, month, totalRewardPoints }) => {
-        const key = `${customerId}`;
-        const monthKey = `${year}-${month}`;
+      if (!acc[key]) {
+        acc[key] = { ...allCustomers[key], id: customerId }; // Ensure customer exists
+      }
 
-        if (!lastThreeMonthsSet.has(monthKey)) return acc; //if not in last 3 months
+      acc[key].totalRewardPoints += totalRewardPoints;
+      acc[key].id = customerId;
 
-        if (!acc[key]) {
-            acc[key] = { ...allCustomers[key] }; // Ensure customer exists
-        }
+      return acc;
+    },
+    { ...allCustomers }
+  ); // Initialize with all customers
 
-        acc[key].totalRewardPoints += totalRewardPoints;
-
-        return acc;
-    }, { ...allCustomers }); // Initialize with all customers
-
-    return Object.values(rewardsData);
+  return Object.values(rewardsData);
 };

@@ -1,211 +1,804 @@
-[
-    {
-      "transactionId": 4092,
-      "customerId": 20010,
-      "customerName": "Amit Tiwari",
-      "purchaseDate": "2024-02-12",
-      "productPurchased": "Mechanical Keyboard",
-      "price": 120
-    },
-    {
-      "transactionId": 4012,
-      "customerId": 20002,
-      "customerName": "Ayesha Kapoor",
-      "purchaseDate": "2024-02-14",
-      "productPurchased": "Tablet",
-      "price": 110.99
-    },
-    {
-      "transactionId": 4022,
-      "customerId": 20003,
-      "customerName": "Neeraj Verma",
-      "purchaseDate": "2024-03-18",
-      "productPurchased": "Router",
-      "price": 85
-    },
-    {
-      "transactionId": 4081,
-      "customerId": 20009,
-      "customerName": "Preeti Malhotra",
-      "purchaseDate": "2024-03-11",
-      "productPurchased": "Smartphone",
-      "price": 875
-    },
-    {
-      "transactionId": 4061,
-      "customerId": 20007,
-      "customerName": "Nisha Rao",
-      "purchaseDate": "2024-04-15",
-      "productPurchased": "Portable Speaker",
-      "price": 99.99
-    },
-    {
-      "transactionId": 4101,
-      "customerId": 20011,
-      "customerName": "Megha Kulkarni",
-      "purchaseDate": "2023-06-05",
-      "productPurchased": "Wireless Charger",
-      "price": 45
-    },
-    {
-      "transactionId": 4091,
-      "customerId": 20010,
-      "customerName": "Amit Tiwari",
-      "purchaseDate": "2024-01-10",
-      "productPurchased": "Gaming Mouse",
-      "price": 60
-    },
-    {
-      "transactionId": 4041,
-      "customerId": 20005,
-      "customerName": "Kunal Mehta",
-      "purchaseDate": "2023-12-22",
-      "productPurchased": "Desk Lamp",
-      "price": 40
-    },
-    {
-      "transactionId": 4071,
-      "customerId": 20008,
-      "customerName": "Rahul Desai",
-      "purchaseDate": "2023-02-21",
-      "productPurchased": "Electric Kettle",
-      "price": 55.5
-    },
-    {
-      "transactionId": 4011,
-      "customerId": 20002,
-      "customerName": "Ayesha Kapoor",
-      "purchaseDate": "2024-10-25",
-      "productPurchased": "Wireless Earbuds",
-      "price": 130.75
-    },
-    {
-      "transactionId": 4003,
-      "customerId": 20001,
-      "customerName": "Vikram Singh",
-      "purchaseDate": "2024-12-08",
-      "productPurchased": "Smart Watch",
-      "price": 200.5
-    },
-    {
-      "transactionId": 4050,
-      "customerId": 20001,
-      "customerName": "Vikram Singh",
-      "purchaseDate": "2024-04-08",
-      "productPurchased": "Smart Watch",
-      "price": 200
-    },
-    {
-      "transactionId": 4032,
-      "customerId": 20004,
-      "customerName": "Ritika Sharma",
-      "purchaseDate": "2024-12-06",
-      "productPurchased": "Noise Cancelling Headphones",
-      "price": 200
-    },
-    {
-      "transactionId": 4021,
-      "customerId": 20003,
-      "customerName": "Neeraj Verma",
-      "purchaseDate": "2024-06-30",
-      "productPurchased": "Bluetooth Mouse",
-      "price": 45.99
-    },
-    {
-      "transactionId": 4001,
-      "customerId": 20001,
-      "customerName": "Vikram Singh",
-      "purchaseDate": "2024-12-22",
-      "productPurchased": "Laptop",
-      "price": 1250.75
-    },
-    {
-      "transactionId": 4103,
-      "customerId": 20011,
-      "customerName": "Megha Kulkarni",
-      "purchaseDate": "2023-08-18",
-      "productPurchased": "Bluetooth Earbuds",
-      "price": 89.99
-    },
-    {
-      "transactionId": 4093,
-      "customerId": 20010,
-      "customerName": "Amit Tiwari",
-      "purchaseDate": "2024-03-15",
-      "productPurchased": "Gaming Chair",
-      "price": 250
-    },
-    {
-      "transactionId": 4002,
-      "customerId": 20001,
-      "customerName": "Vikram Singh",
-      "purchaseDate": "2022-07-15",
-      "productPurchased": "Tablet",
-      "price": 80.99
-    },
-    {
-      "transactionId": 4083,
-      "customerId": 20009,
-      "customerName": "Preeti Malhotra",
-      "purchaseDate": "2023-07-02",
-      "productPurchased": "Mechanical Keyboard",
-      "price": 79.99
-    },
-    {
-      "transactionId": 4062,
-      "customerId": 20007,
-      "customerName": "Nisha Rao",
-      "purchaseDate": "2022-12-20",
-      "productPurchased": "Blender",
-      "price": 130
-    },
-    {
-      "transactionId": 4051,
-      "customerId": 20006,
-      "customerName": "Sandeep Joshi",
-      "purchaseDate": "2024-01-10",
-      "productPurchased": "Printer",
-      "price": 300
-    },
-    {
-      "transactionId": 4004,
-      "customerId": 20001,
-      "customerName": "Vikram Singh",
-      "purchaseDate": "2024-11-25",
-      "productPurchased": "Phone",
-      "price": 950
-    },
-    {
-      "transactionId": 4102,
-      "customerId": 20011,
-      "customerName": "Megha Kulkarni",
-      "purchaseDate": "2023-07-10",
-      "productPurchased": "Tablet Case",
-      "price": 25
-    },
-    {
-      "transactionId": 4082,
-      "customerId": 20009,
-      "customerName": "Preeti Malhotra",
-      "purchaseDate": "2024-11-25",
-      "productPurchased": "Electric Heater",
-      "price": 199.99
-    },
-    {
-      "transactionId": 4031,
-      "customerId": 20004,
-      "customerName": "Ritika Sharma",
-      "purchaseDate": "2024-08-10",
-      "productPurchased": "Phone",
-      "price": 675
-    },
-    {
-      "transactionId": 4042,
-      "customerId": 20005,
-      "customerName": "Kunal Mehta",
-      "purchaseDate": "2024-09-29",
-      "productPurchased": "Office Chair",
-      "price": 150
-    }
+
+  [
+   {
+    "transactionId": 4092,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "06/14/2024",
+    "productPurchased": "Monitor",
+    "price": 48.00
+   },
+   {
+    "transactionId": 4093,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "03/26/2022",
+    "productPurchased": "Mouse",
+    "price": 459.601618051525
+   },
+   {
+    "transactionId": 4094,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "04/10/2023",
+    "productPurchased": "Tablet",
+    "price": 919.6585371654922
+   },
+   {
+    "transactionId": 4095,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "03/20/2022",
+    "productPurchased": "Router",
+    "price": 287.14439283274567
+   },
+   {
+    "transactionId": 4096,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "12/20/2023",
+    "productPurchased": "Laptop",
+    "price": 633.9281875676744
+   },
+   {
+    "transactionId": 4097,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "01/31/2023",
+    "productPurchased": "Monitor",
+    "price": 271.49711021327636
+   },
+   {
+    "transactionId": 4098,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "02/11/2025",
+    "productPurchased": "Mouse",
+    "price": 970.376295232347
+   },
+   {
+    "transactionId": 4099,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "02/29/2024",
+    "productPurchased": "Tablet",
+    "price": 451.86591273684905
+   },
+   {
+    "transactionId": 4100,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "01/30/2023",
+    "productPurchased": "Router",
+    "price": 921.799904241063
+   },
+   {
+    "transactionId": 4101,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "01/07/2022",
+    "productPurchased": "Laptop",
+    "price": 708.6739697280591
+   },
+   {
+    "transactionId": 4102,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "04/12/2023",
+    "productPurchased": "Monitor",
+    "price": 515.0475459431433
+   },
+   {
+    "transactionId": 4103,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "10/02/2023",
+    "productPurchased": "Mouse",
+    "price": 500.00
+   },
+   {
+    "transactionId": 4104,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "09/10/2024",
+    "productPurchased": "Tablet",
+    "price": 637.0151692916547
+   },
+   {
+    "transactionId": 4105,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "06/18/2022",
+    "productPurchased": "Router",
+    "price": 911.2720283351674
+   },
+   {
+    "transactionId": 4106,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "11/03/2023",
+    "productPurchased": "Laptop",
+    "price": 833.8444971703683
+   },
+   {
+    "transactionId": 4107,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "11/04/2024",
+    "productPurchased": "Monitor",
+    "price": 868.2446051751303
+   },
+   {
+    "transactionId": 4108,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "10/03/2024",
+    "productPurchased": "Mouse",
+    "price": 488.6622191983772
+   },
+   {
+    "transactionId": 4109,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "10/16/2023",
+    "productPurchased": "Tablet",
+    "price": 966.9737019647504
+   },
+   {
+    "transactionId": 4110,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "07/12/2024",
+    "productPurchased": "Router",
+    "price": 54.87606775085955
+   },
+   {
+    "transactionId": 4111,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "05/25/2022",
+    "productPurchased": "Laptop",
+    "price": 173.29860679682952
+   },
+   {
+    "transactionId": 4112,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "11/24/2023",
+    "productPurchased": "Monitor",
+    "price": 543.4897276800004
+   },
+   {
+    "transactionId": 4113,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "12/27/2023",
+    "productPurchased": "Mouse",
+    "price": 950.2403350202791
+   },
+   {
+    "transactionId": 4114,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "12/19/2022",
+    "productPurchased": "Tablet",
+    "price": 100.25355821030448
+   },
+   {
+    "transactionId": 4115,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "12/16/2024",
+    "productPurchased": "Router",
+    "price": 635.9652686726213
+   },
+   {
+    "transactionId": 4116,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "07/12/2023",
+    "productPurchased": "Laptop",
+    "price": 388.0899463786129
+   },
+   {
+    "transactionId": 4117,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "10/29/2022",
+    "productPurchased": "Monitor",
+    "price": 357.41717627821924
+   },
+   {
+    "transactionId": 4118,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "01/18/2023",
+    "productPurchased": "Mouse",
+    "price": 799.7806622967332
+   },
+   {
+    "transactionId": 4119,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "09/16/2022",
+    "productPurchased": "Tablet",
+    "price": 195.09083882527315
+   },
+   {
+    "transactionId": 4120,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "08/13/2024",
+    "productPurchased": "Router",
+    "price": 315.26522156483003
+   },
+   {
+    "transactionId": 4121,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "02/18/2024",
+    "productPurchased": "Laptop",
+    "price": 195.58648536421217
+   },
+   {
+    "transactionId": 4122,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "10/04/2022",
+    "productPurchased": "Monitor",
+    "price": 193.2734819822641
+   },
+   {
+    "transactionId": 4123,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "11/17/2022",
+    "productPurchased": "Mouse",
+    "price": 309.6896752351352
+   },
+   {
+    "transactionId": 4124,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "02/19/2023",
+    "productPurchased": "Tablet",
+    "price": 503.3907273695476
+   },
+   {
+    "transactionId": 4125,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "07/20/2024",
+    "productPurchased": "Router",
+    "price": 830.8286258148825
+   },
+   {
+    "transactionId": 4126,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "02/17/2025",
+    "productPurchased": "Laptop",
+    "price": 651.045577061053
+   },
+   {
+    "transactionId": 4127,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "06/12/2022",
+    "productPurchased": "Monitor",
+    "price": 134.3844201524037
+   },
+   {
+    "transactionId": 4128,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "01/31/2023",
+    "productPurchased": "Mouse",
+    "price": 421.23415293525727
+   },
+   {
+    "transactionId": 4129,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "04/22/2022",
+    "productPurchased": "Tablet",
+    "price": 240.51630088238858
+   },
+   {
+    "transactionId": 4130,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "11/16/2024",
+    "productPurchased": "Router",
+    "price": 179.5453074301603
+   },
+   {
+    "transactionId": 4131,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "11/14/2024",
+    "productPurchased": "Laptop",
+    "price": 704.3974740821841
+   },
+   {
+    "transactionId": 4132,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "02/23/2024",
+    "productPurchased": "Monitor",
+    "price": 236.06654070601527
+   },
+   {
+    "transactionId": 4133,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "11/08/2024",
+    "productPurchased": "Mouse",
+    "price": 785.5607498777777
+   },
+   {
+    "transactionId": 4134,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "02/11/2024",
+    "productPurchased": "Tablet",
+    "price": 798.4450085771003
+   },
+   {
+    "transactionId": 4135,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "03/30/2023",
+    "productPurchased": "Router",
+    "price": 246.00
+   },
+   {
+    "transactionId": 4136,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "02/27/2024",
+    "productPurchased": "Laptop",
+    "price": 44.25812801421264
+   },
+   {
+    "transactionId": 4137,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "07/14/2022",
+    "productPurchased": "Monitor",
+    "price": 358.99081673481
+   },
+   {
+    "transactionId": 4138,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "09/16/2024",
+    "productPurchased": "Mouse",
+    "price": 569.0264892317246
+   },
+   {
+    "transactionId": 4139,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "03/21/2022",
+    "productPurchased": "Tablet",
+    "price": 691.4005028995431
+   },
+   {
+    "transactionId": 4140,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "03/29/2023",
+    "productPurchased": "Router",
+    "price": 943.1560385169365
+   },
+   {
+    "transactionId": 4141,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "11/04/2022",
+    "productPurchased": "Laptop",
+    "price": 668.3564167313417
+   },
+   {
+    "transactionId": 4142,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "05/24/2024",
+    "productPurchased": "Monitor",
+    "price": 851.1012158822189
+   },
+   {
+    "transactionId": 4143,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "03/23/2022",
+    "productPurchased": "Mouse",
+    "price": 456.1180722064719
+   },
+   {
+    "transactionId": 4144,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "12/10/2022",
+    "productPurchased": "Tablet",
+    "price": 451.84660399366913
+   },
+   {
+    "transactionId": 4145,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "11/16/2023",
+    "productPurchased": "Router",
+    "price": 352.10849316979557
+   },
+   {
+    "transactionId": 4146,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "02/10/2023",
+    "productPurchased": "Laptop",
+    "price": 373.297549877214
+   },
+   {
+    "transactionId": 4147,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "09/27/2024",
+    "productPurchased": "Monitor",
+    "price": 858.9008823841066
+   },
+   {
+    "transactionId": 4148,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "08/30/2023",
+    "productPurchased": "Mouse",
+    "price": 440.35876786169837
+   },
+   {
+    "transactionId": 4149,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "11/13/2022",
+    "productPurchased": "Tablet",
+    "price": 607.0124141624051
+   },
+   {
+    "transactionId": 4150,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "03/12/2024",
+    "productPurchased": "Router",
+    "price": 571.0189146198494
+   },
+   {
+    "transactionId": 4151,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "06/09/2024",
+    "productPurchased": "Laptop",
+    "price": 341.76288336706017
+   },
+   {
+    "transactionId": 4152,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "05/21/2023",
+    "productPurchased": "Monitor",
+    "price": 798.3596240039867
+   },
+   {
+    "transactionId": 4153,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "12/29/2022",
+    "productPurchased": "Mouse",
+    "price": 13.882696282988153
+   },
+   {
+    "transactionId": 4154,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "04/22/2023",
+    "productPurchased": "Tablet",
+    "price": 363.7291548873864
+   },
+   {
+    "transactionId": 4155,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "05/30/2023",
+    "productPurchased": "Router",
+    "price": 773.8396871390344
+   },
+   {
+    "transactionId": 4156,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "04/25/2023",
+    "productPurchased": "Laptop",
+    "price": 728.8008316646699
+   },
+   {
+    "transactionId": 4157,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "02/16/2023",
+    "productPurchased": "Monitor",
+    "price": 370.58075164848304
+   },
+   {
+    "transactionId": 4158,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "02/14/2023",
+    "productPurchased": "Mouse",
+    "price": 624.4487118703062
+   },
+   {
+    "transactionId": 4159,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "07/01/2024",
+    "productPurchased": "Tablet",
+    "price": 978.8876102912672
+   },
+   {
+    "transactionId": 4160,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "08/22/2023",
+    "productPurchased": "Router",
+    "price": 627.00
+   },
+   {
+    "transactionId": 4161,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "04/28/2023",
+    "productPurchased": "Laptop",
+    "price": 544.2893461389388
+   },
+   {
+    "transactionId": 4162,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "07/17/2023",
+    "productPurchased": "Monitor",
+    "price": 734.3167353063311
+   },
+   {
+    "transactionId": 4163,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "12/23/2022",
+    "productPurchased": "Mouse",
+    "price": 65.79323054280401
+   },
+   {
+    "transactionId": 4164,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "08/28/2023",
+    "productPurchased": "Tablet",
+    "price": 793.4472865058334
+   },
+   {
+    "transactionId": 4165,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "03/13/2023",
+    "productPurchased": "Router",
+    "price": 121.25869552639868
+   },
+   {
+    "transactionId": 4166,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "10/12/2022",
+    "productPurchased": "Laptop",
+    "price": 175.1564977523057
+   },
+   {
+    "transactionId": 4167,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "06/27/2022",
+    "productPurchased": "Monitor",
+    "price": 18.680873851427407
+   },
+   {
+    "transactionId": 4168,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "11/30/2022",
+    "productPurchased": "Mouse",
+    "price": 209.93335326606496
+   },
+   {
+    "transactionId": 4169,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "10/11/2024",
+    "productPurchased": "Tablet",
+    "price": 813.7621440725709
+   },
+   {
+    "transactionId": 4170,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "07/28/2024",
+    "productPurchased": "Router",
+    "price": 814.8803460034128
+   },
+   {
+    "transactionId": 4171,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "03/08/2024",
+    "productPurchased": "Laptop",
+    "price": 566.2452334585942
+   },
+   {
+    "transactionId": 4172,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "11/02/2022",
+    "productPurchased": "Monitor",
+    "price": 745.2518385406103
+   },
+   {
+    "transactionId": 4173,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "06/10/2024",
+    "productPurchased": "Mouse",
+    "price": 613.3442820759091
+   },
+   {
+    "transactionId": 4174,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "12/07/2022",
+    "productPurchased": "Tablet",
+    "price": 476.10207944784423
+   },
+   {
+    "transactionId": 4175,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "11/27/2024",
+    "productPurchased": "Router",
+    "price": 207.3256759849842
+   },
+   {
+    "transactionId": 4176,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "02/26/2023",
+    "productPurchased": "Laptop",
+    "price": 263.4034509469396
+   },
+   {
+    "transactionId": 4177,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "07/28/2024",
+    "productPurchased": "Monitor",
+    "price": 342.03904309679393
+   },
+   {
+    "transactionId": 4178,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "02/21/2024",
+    "productPurchased": "Mouse",
+    "price": 375.47593486907454
+   },
+   {
+    "transactionId": 4179,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "04/10/2024",
+    "productPurchased": "Tablet",
+    "price": 327.71387277899294
+   },
+   {
+    "transactionId": 4180,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "09/11/2022",
+    "productPurchased": "Router",
+    "price": 426.3371320386669
+   },
+   {
+    "transactionId": 4181,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "01/17/2025",
+    "productPurchased": "Laptop",
+    "price": 884.033421900477
+   },
+   {
+    "transactionId": 4182,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "08/09/2024",
+    "productPurchased": "Monitor",
+    "price": 930.00
+   },
+   {
+    "transactionId": 4183,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "08/07/2022",
+    "productPurchased": "Mouse",
+    "price": 213.82812158322963
+   },
+   {
+    "transactionId": 4184,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "03/13/2022",
+    "productPurchased": "Tablet",
+    "price": 429.0192048806278
+   },
+   {
+    "transactionId": 4185,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "06/04/2023",
+    "productPurchased": "Router",
+    "price": 83.21428694877713
+   },
+   {
+    "transactionId": 4186,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "06/13/2024",
+    "productPurchased": "Laptop",
+    "price": 946.9150705368379
+   },
+   {
+    "transactionId": 4187,
+    "customerId": 10000,
+    "customerName": "Amit Tiwari",
+    "purchaseDate": "07/07/2024",
+    "productPurchased": "Monitor",
+    "price": 502.63987138751435
+   },
+   {
+    "transactionId": 4188,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "11/09/2023",
+    "productPurchased": "Mouse",
+    "price": 377.46027709550447
+   },
+   {
+    "transactionId": 4189,
+    "customerId": 10002,
+    "customerName": "Ayesha Kapoor",
+    "purchaseDate": "12/25/2024",
+    "productPurchased": "Tablet",
+    "price": 497.0688724218551
+   },
+   {
+    "transactionId": 4190,
+    "customerId": 10003,
+    "customerName": "Neeraj Verma",
+    "purchaseDate": "05/24/2024",
+    "productPurchased": "Router",
+    "price": 749.2172596824286
+   },
+   {
+    "transactionId": 4191,
+    "customerId": 10001,
+    "customerName": "Vikram Singh",
+    "purchaseDate": "07/24/2024",
+    "productPurchased": "Laptop",
+    "price": 417.00
+   }
   ]
   
