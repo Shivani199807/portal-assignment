@@ -106,11 +106,6 @@ npm run test
 
 <img src="./public/assets/testcases.png" alt="Screenshot" width="400" />
 
-Eslintric
-
-
-
-<img src="./public/assets/eslintric.png" alt="Screenshot" width="400" />
 
 
 In the project directory, you can run:
