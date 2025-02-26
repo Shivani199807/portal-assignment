@@ -54,7 +54,7 @@ A web application built using **React.js** that calculates and displays rewards 
 - **`heading.js`** - For displaying the headings
 - **`errBoundary.js`** - For displaying the errors
 - **`dateComponent.js`** - For displaying the date and filter the data accordingly
-- 
+
  
 
 ## Screenshots
@@ -73,7 +73,7 @@ Monthly Total Transactions
 
 <img src="./public/assets/MonthlyTransactions.png" alt="Screenshot" width="400" />
 
-TotalTransactions(Consecutive last three months)
+TotalTransactions
 
 
 <img src="./public/assets/totalRewards.png" alt="Screenshot" width="400" />
