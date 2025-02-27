@@ -15,6 +15,7 @@ import Box from "@mui/material/Box";
  * @returns {JSX.Element}  // component table return 
  */
 const Table = ({ rows, column, dataTestId }) => {
+  
   return (
     <Box
       sx={{
@@ -40,6 +41,8 @@ const Table = ({ rows, column, dataTestId }) => {
               pageSize: 5,
             },
           },
+         
+          
         }}
         data-testid={dataTestId}
         disableColumnFilter
@@ -47,6 +50,7 @@ const Table = ({ rows, column, dataTestId }) => {
         disableDensitySelector
         disableColumnResize
         showCellVerticalBorder
+        disableColumnSorting
       />
     </Box>
   );

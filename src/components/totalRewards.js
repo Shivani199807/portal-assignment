@@ -8,6 +8,12 @@ import { lastThreeMonthsRewardPoints } from "../Utils/totalRewardsPoints";
  * @type {Array<{ field: string, headerName: string, headerClassName: string, flex: number, align?: string }>}
  */
 const columns = [
+    {
+        field: "customerId",
+        headerName: "Customer Id",
+        headerClassName: "tableHeader",
+        flex: 1,
+      },
   {
     field: "customerName",
     headerName: "Customer Name",

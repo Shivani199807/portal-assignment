@@ -27,6 +27,8 @@ export const columns = [
     headerName: "Purchase Date",
     headerClassName: "tableHeader",
     flex: 1,
+   
+   
   },
 
   {
@@ -34,6 +36,7 @@ export const columns = [
     headerName: "Product Purchased",
     headerClassName: "tableHeader",
     flex: 1,
+   
   },
   {
     field: "price",
@@ -71,6 +74,7 @@ const AllTransactions = ({ totalTransactions }) => {
         column={columns}
         rows={transactionsData}
         dataTestId={"allTransactions"}
+       
       />
     </>
   );

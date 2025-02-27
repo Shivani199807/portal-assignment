@@ -1,5 +1,7 @@
 import transactions from "./transactions";
 import dayjs from "dayjs";
+
+import _ from "lodash"; 
 /**
  * Calculates the total reward points earned by each customer per month.
  *
@@ -50,20 +52,18 @@ export const monthlyRewardPoints = (monthlyTransactions) => {
  * @returns {Array} data It contains the monthly reward points of each customer split on basis of each month and year
  */
 
+
+
 export const splitByMonths = (data1) => {
+  if (!Array.isArray(data1)) return {};
+
+  //  Deep clone to prevent modifying the original array
+  const clonedData = _.cloneDeep(data1);
+
   const data = {};
 
-  for (const {
-    customerId,
-    customerName,
-    month,
-    year,
-    totalRewardPoints,
-    id,
-  } of data1) {
-    const key = `${dayjs()
-      .month(month - 1)
-      .format("MMMM")}-${year}`;
+  for (const { customerId, customerName, month, year, totalRewardPoints, id } of clonedData) {
+    const key = `${dayjs().month(month - 1).format("MMMM")}-${year}`;
 
     if (!data[key]) data[key] = [];
 
@@ -78,9 +78,17 @@ export const splitByMonths = (data1) => {
   }
 
   return Object.fromEntries(
-    Object.entries(data).sort(
-      ([aKey], [bKey]) =>
-        dayjs(bKey, "MMMM-YYYY").valueOf() - dayjs(aKey, "MMMM-YYYY").valueOf()
-    )
+    Object.entries(data)
+      // Sort months in descending order 
+      .sort(
+        ([aKey], [bKey]) =>
+          dayjs(bKey, "MMMM-YYYY").valueOf() - dayjs(aKey, "MMMM-YYYY").valueOf()
+      )
+      .map(([monthKey, transactions]) => [
+        monthKey,
+        // Sort by `customerId` (Ascending Order) within each month
+        transactions.sort((a, b) => String(a.customerId).localeCompare(b.customerId)),
+      ])
   );
 };
+
