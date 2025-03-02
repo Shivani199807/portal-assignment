@@ -543,22 +543,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 719.666666666667
    },
-   {
-    "transactionId": 4160,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 744.666666666667
-   },
-   {
-    "transactionId": 4161,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 769.666666666667
-   },
+   
    {
     "transactionId": 4162,
     "customerId": 10000,
@@ -599,22 +584,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 794.666666666667
    },
-   {
-    "transactionId": 4167,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 819.666666666667
-   },
-   {
-    "transactionId": 4168,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 844.666666666667
-   },
+  
    {
     "transactionId": 4169,
     "customerId": 10000,
@@ -655,22 +625,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 869.666666666667
    },
-   {
-    "transactionId": 4174,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 894.666666666667
-   },
-   {
-    "transactionId": 4175,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 919.666666666667
-   },
+  
    {
     "transactionId": 4176,
     "customerId": 10000,
@@ -711,22 +666,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 944.666666666667
    },
-   {
-    "transactionId": 4181,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 969.666666666667
-   },
-   {
-    "transactionId": 4182,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 994.666666666667
-   },
+
    {
     "transactionId": 4183,
     "customerId": 10000,
@@ -767,22 +707,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 1019.66666666667
    },
-   {
-    "transactionId": 4188,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 1044.66666666667
-   },
-   {
-    "transactionId": 4189,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 1069.66666666667
-   },
+  
    {
     "transactionId": 4190,
     "customerId": 10000,
@@ -823,22 +748,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 1094.66666666667
    },
-   {
-    "transactionId": 4195,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 1119.66666666667
-   },
-   {
-    "transactionId": 4196,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 1144.66666666667
-   },
+  
    {
     "transactionId": 4197,
     "customerId": 10000,
@@ -879,22 +789,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 1169.66666666667
    },
-   {
-    "transactionId": 4202,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 1194.66666666667
-   },
-   {
-    "transactionId": 4203,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 1219.66666666667
-   },
+  
    {
     "transactionId": 4204,
     "customerId": 10000,
@@ -935,22 +830,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 1244.66666666667
    },
-   {
-    "transactionId": 4209,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 1269.66666666667
-   },
-   {
-    "transactionId": 4210,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 1294.66666666667
-   },
+  
    {
     "transactionId": 4211,
     "customerId": 10000,
@@ -991,22 +871,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 1319.66666666667
    },
-   {
-    "transactionId": 4216,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 1344.66666666667
-   },
-   {
-    "transactionId": 4217,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 1369.66666666667
-   },
+ 
    {
     "transactionId": 4218,
     "customerId": 10000,
@@ -1047,22 +912,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 1394.66666666667
    },
-   {
-    "transactionId": 4223,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 1419.66666666667
-   },
-   {
-    "transactionId": 4224,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 1444.66666666667
-   },
+  
    {
     "transactionId": 4225,
     "customerId": 10000,
@@ -1103,22 +953,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 1469.66666666667
    },
-   {
-    "transactionId": 4230,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 1494.66666666667
-   },
-   {
-    "transactionId": 4231,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 1519.66666666667
-   },
+ 
    {
     "transactionId": 4232,
     "customerId": 10000,
@@ -1159,22 +994,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 1544.66666666667
    },
-   {
-    "transactionId": 4237,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 1569.66666666667
-   },
-   {
-    "transactionId": 4238,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 1594.66666666667
-   },
+
    {
     "transactionId": 4239,
     "customerId": 10000,
@@ -1215,22 +1035,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 1619.66666666667
    },
-   {
-    "transactionId": 4244,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 1644.66666666667
-   },
-   {
-    "transactionId": 4245,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 1669.66666666667
-   },
+  
    {
     "transactionId": 4246,
     "customerId": 10000,
@@ -1271,22 +1076,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 1694.66666666667
    },
-   {
-    "transactionId": 4251,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 1719.66666666667
-   },
-   {
-    "transactionId": 4252,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 1744.66666666667
-   },
+   
    {
     "transactionId": 4253,
     "customerId": 10000,
@@ -1327,22 +1117,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 1769.66666666667
    },
-   {
-    "transactionId": 4258,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 1794.66666666667
-   },
-   {
-    "transactionId": 4259,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 1819.66666666667
-   },
+  
    {
     "transactionId": 4260,
     "customerId": 10000,
@@ -1383,22 +1158,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 1844.66666666667
    },
-   {
-    "transactionId": 4265,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 1869.66666666667
-   },
-   {
-    "transactionId": 4266,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 1894.66666666667
-   },
+  
    {
     "transactionId": 4267,
     "customerId": 10000,
@@ -1439,22 +1199,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 1919.66666666667
    },
-   {
-    "transactionId": 4272,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 1944.66666666667
-   },
-   {
-    "transactionId": 4273,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 1969.66666666667
-   },
+  
    {
     "transactionId": 4274,
     "customerId": 10000,
@@ -1495,22 +1240,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 1994.66666666667
    },
-   {
-    "transactionId": 4279,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 2019.66666666667
-   },
-   {
-    "transactionId": 4280,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 2044.66666666667
-   },
+   
    {
     "transactionId": 4281,
     "customerId": 10000,
@@ -1551,22 +1281,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 2069.66666666667
    },
-   {
-    "transactionId": 4286,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 2094.66666666667
-   },
-   {
-    "transactionId": 4287,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 2119.66666666667
-   },
+   
    {
     "transactionId": 4288,
     "customerId": 10000,
@@ -1607,22 +1322,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 2144.66666666667
    },
-   {
-    "transactionId": 4293,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 2169.66666666667
-   },
-   {
-    "transactionId": 4294,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 2194.66666666667
-   },
+  
    {
     "transactionId": 4295,
     "customerId": 10000,
@@ -1663,22 +1363,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 2219.66666666667
    },
-   {
-    "transactionId": 4300,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 2244.66666666667
-   },
-   {
-    "transactionId": 4301,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 2269.66666666667
-   },
+  
    {
     "transactionId": 4302,
     "customerId": 10000,
@@ -1719,22 +1404,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 2294.66666666667
    },
-   {
-    "transactionId": 4307,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 2319.66666666667
-   },
-   {
-    "transactionId": 4308,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 2344.66666666667
-   },
+  
    {
     "transactionId": 4309,
     "customerId": 10000,
@@ -1775,22 +1445,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 2369.66666666667
    },
-   {
-    "transactionId": 4314,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 2394.66666666667
-   },
-   {
-    "transactionId": 4315,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 2419.66666666667
-   },
+   
    {
     "transactionId": 4316,
     "customerId": 10000,
@@ -1831,22 +1486,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 2444.66666666667
    },
-   {
-    "transactionId": 4321,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 2469.66666666667
-   },
-   {
-    "transactionId": 4322,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 2494.66666666667
-   },
+   
    {
     "transactionId": 4323,
     "customerId": 10000,
@@ -1895,22 +1535,7 @@
     "productPurchased": "Keypad",
     "price": 2544.66666666667
    },
-   {
-    "transactionId": 4329,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 2569.66666666667
-   },
-   {
-    "transactionId": 4330,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "02/06/2025",
-    "productPurchased": "Monitor",
-    "price": 848.9272619728401
-   },
+  
    {
     "transactionId": 4331,
     "customerId": 10001,
@@ -1943,22 +1568,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 2594.66666666667
    },
-   {
-    "transactionId": 4335,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 2619.66666666667
-   },
-   {
-    "transactionId": 4336,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 2644.66666666667
-   },
+   
    {
     "transactionId": 4337,
     "customerId": 10000,
@@ -1999,22 +1609,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 2669.66666666667
    },
-   {
-    "transactionId": 4342,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 2694.66666666667
-   },
-   {
-    "transactionId": 4343,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 2719.66666666667
-   },
+  
    {
     "transactionId": 4344,
     "customerId": 10000,
@@ -2055,22 +1650,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 2744.66666666667
    },
-   {
-    "transactionId": 4349,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 2769.66666666667
-   },
-   {
-    "transactionId": 4350,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 2794.66666666667
-   },
+   
    {
     "transactionId": 4351,
     "customerId": 10000,
@@ -2111,22 +1691,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 2819.66666666667
    },
-   {
-    "transactionId": 4356,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 2844.66666666667
-   },
-   {
-    "transactionId": 4357,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 2869.66666666667
-   },
+   
    {
     "transactionId": 4358,
     "customerId": 10000,
@@ -2167,22 +1732,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 2894.66666666667
    },
-   {
-    "transactionId": 4363,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 2919.66666666667
-   },
-   {
-    "transactionId": 4364,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 2944.66666666667
-   },
+   
    {
     "transactionId": 4365,
     "customerId": 10000,
@@ -2223,22 +1773,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 2969.66666666667
    },
-   {
-    "transactionId": 4370,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 2994.66666666667
-   },
-   {
-    "transactionId": 4371,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 3019.66666666667
-   },
+  
    {
     "transactionId": 4372,
     "customerId": 10000,
@@ -2279,22 +1814,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 3044.66666666667
    },
-   {
-    "transactionId": 4377,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 3069.66666666667
-   },
-   {
-    "transactionId": 4378,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 3094.66666666667
-   },
+   
    {
     "transactionId": 4379,
     "customerId": 10000,
@@ -2335,22 +1855,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 3119.66666666667
    },
-   {
-    "transactionId": 4384,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 3144.66666666667
-   },
-   {
-    "transactionId": 4385,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 3169.66666666667
-   },
+  
    {
     "transactionId": 4386,
     "customerId": 10000,
@@ -2391,22 +1896,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 3194.66666666667
    },
-   {
-    "transactionId": 4391,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 3219.66666666667
-   },
-   {
-    "transactionId": 4392,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 3244.66666666667
-   },
+   
    {
     "transactionId": 4393,
     "customerId": 10000,
@@ -2447,22 +1937,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 3269.66666666667
    },
-   {
-    "transactionId": 4398,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 3294.66666666667
-   },
-   {
-    "transactionId": 4399,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 3319.66666666667
-   },
+   
    {
     "transactionId": 4400,
     "customerId": 10000,
@@ -2503,22 +1978,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 3344.66666666667
    },
-   {
-    "transactionId": 4405,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 3369.66666666667
-   },
-   {
-    "transactionId": 4406,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 3394.66666666667
-   },
+   
    {
     "transactionId": 4407,
     "customerId": 10000,
@@ -2559,22 +2019,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 3419.66666666667
    },
-   {
-    "transactionId": 4412,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 3444.66666666667
-   },
-   {
-    "transactionId": 4413,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 3469.66666666667
-   },
+   
    {
     "transactionId": 4414,
     "customerId": 10000,
@@ -2615,22 +2060,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 3494.66666666667
    },
-   {
-    "transactionId": 4419,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 3519.66666666667
-   },
-   {
-    "transactionId": 4420,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 3544.66666666667
-   },
+   
    {
     "transactionId": 4421,
     "customerId": 10000,
@@ -2671,22 +2101,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 3569.66666666667
    },
-   {
-    "transactionId": 4426,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 3594.66666666667
-   },
-   {
-    "transactionId": 4427,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 3619.66666666667
-   },
+   
    {
     "transactionId": 4428,
     "customerId": 10000,
@@ -2727,22 +2142,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 3644.66666666667
    },
-   {
-    "transactionId": 4433,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 3669.66666666667
-   },
-   {
-    "transactionId": 4434,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 3694.66666666667
-   },
+  
    {
     "transactionId": 4435,
     "customerId": 10000,
@@ -2783,22 +2183,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 3719.66666666667
    },
-   {
-    "transactionId": 4440,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 3744.66666666667
-   },
-   {
-    "transactionId": 4441,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 3769.66666666667
-   },
+  
    {
     "transactionId": 4442,
     "customerId": 10000,
@@ -2839,22 +2224,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 3794.66666666667
    },
-   {
-    "transactionId": 4447,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 3819.66666666667
-   },
-   {
-    "transactionId": 4448,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 3844.66666666667
-   },
+  
    {
     "transactionId": 4449,
     "customerId": 10000,
@@ -2895,22 +2265,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 3869.66666666667
    },
-   {
-    "transactionId": 4454,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 3894.66666666667
-   },
-   {
-    "transactionId": 4455,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 3919.66666666667
-   },
+  
    {
     "transactionId": 4456,
     "customerId": 10000,
@@ -2951,22 +2306,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 3944.66666666667
    },
-   {
-    "transactionId": 4461,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 3969.66666666667
-   },
-   {
-    "transactionId": 4462,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 3994.66666666667
-   },
+ 
    {
     "transactionId": 4463,
     "customerId": 10000,
@@ -3007,22 +2347,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 4019.66666666667
    },
-   {
-    "transactionId": 4468,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 4044.66666666667
-   },
-   {
-    "transactionId": 4469,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 4069.66666666667
-   },
+   
    {
     "transactionId": 4470,
     "customerId": 10000,
@@ -3063,22 +2388,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 4094.66666666667
    },
-   {
-    "transactionId": 4475,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 4119.66666666667
-   },
-   {
-    "transactionId": 4476,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 4144.66666666667
-   },
+  
    {
     "transactionId": 4477,
     "customerId": 10000,
@@ -3119,22 +2429,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 4169.66666666667
    },
-   {
-    "transactionId": 4482,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 4194.66666666667
-   },
-   {
-    "transactionId": 4483,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 4219.66666666667
-   },
+   
    {
     "transactionId": 4484,
     "customerId": 10000,
@@ -3175,22 +2470,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 4244.66666666667
    },
-   {
-    "transactionId": 4489,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 4269.66666666667
-   },
-   {
-    "transactionId": 4490,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 4294.66666666667
-   },
+   
    {
     "transactionId": 4491,
     "customerId": 10000,
@@ -3231,22 +2511,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 4319.66666666667
    },
-   {
-    "transactionId": 4496,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 4344.66666666667
-   },
-   {
-    "transactionId": 4497,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 4369.66666666667
-   },
+  
    {
     "transactionId": 4498,
     "customerId": 10000,
@@ -3287,22 +2552,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 4394.66666666667
    },
-   {
-    "transactionId": 4503,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 4419.66666666667
-   },
-   {
-    "transactionId": 4504,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 4444.66666666667
-   },
+  
    {
     "transactionId": 4505,
     "customerId": 10000,
@@ -3343,22 +2593,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 4469.66666666667
    },
-   {
-    "transactionId": 4510,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 4494.66666666667
-   },
-   {
-    "transactionId": 4511,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 4519.66666666667
-   },
+  
    {
     "transactionId": 4512,
     "customerId": 10000,
@@ -3399,22 +2634,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 4544.66666666667
    },
-   {
-    "transactionId": 4517,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 4569.66666666667
-   },
-   {
-    "transactionId": 4518,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 4594.66666666667
-   },
+  
    {
     "transactionId": 4519,
     "customerId": 10000,
@@ -3455,22 +2675,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 4619.66666666667
    },
-   {
-    "transactionId": 4524,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 4644.66666666667
-   },
-   {
-    "transactionId": 4525,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 4669.66666666667
-   },
+   
    {
     "transactionId": 4526,
     "customerId": 10000,
@@ -3511,22 +2716,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 4694.66666666667
    },
-   {
-    "transactionId": 4531,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 4719.66666666667
-   },
-   {
-    "transactionId": 4532,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 4744.66666666667
-   },
+  
    {
     "transactionId": 4533,
     "customerId": 10000,
@@ -3567,22 +2757,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 4769.66666666667
    },
-   {
-    "transactionId": 4538,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 4794.66666666667
-   },
-   {
-    "transactionId": 4539,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 4819.66666666667
-   },
+   
    {
     "transactionId": 4540,
     "customerId": 10000,
@@ -3599,14 +2774,7 @@
     "productPurchased": "Mouse",
     "price": 319.2439483071791
    },
-   {
-    "transactionId": 4542,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "01/17/2025",
-    "productPurchased": "Tablet",
-    "price": 244.13629487360083
-   },
+  
    {
     "transactionId": 4543,
     "customerId": 10003,
@@ -3623,22 +2791,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 4844.66666666667
    },
-   {
-    "transactionId": 4545,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 4869.66666666667
-   },
-   {
-    "transactionId": 4546,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 4894.66666666667
-   },
+  
    {
     "transactionId": 4547,
     "customerId": 10000,
@@ -3679,22 +2832,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 4919.66666666667
    },
-   {
-    "transactionId": 4552,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 4944.66666666667
-   },
-   {
-    "transactionId": 4553,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 4969.66666666667
-   },
+   
    {
     "transactionId": 4554,
     "customerId": 10000,
@@ -3735,22 +2873,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 4994.66666666667
    },
-   {
-    "transactionId": 4559,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 5019.66666666667
-   },
-   {
-    "transactionId": 4560,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 5044.66666666667
-   },
+  
    {
     "transactionId": 4561,
     "customerId": 10000,
@@ -3791,22 +2914,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 5069.66666666667
    },
-   {
-    "transactionId": 4566,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 5094.66666666667
-   },
-   {
-    "transactionId": 4567,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 5119.66666666667
-   },
+  
    {
     "transactionId": 4568,
     "customerId": 10000,
@@ -3847,30 +2955,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 5144.66666666667
    },
-   {
-    "transactionId": 4573,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 5169.66666666667
-   },
-   {
-    "transactionId": 4574,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 5194.66666666667
-   },
-   {
-    "transactionId": 4575,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "02/13/2025",
-    "productPurchased": "Monitor",
-    "price": 944.3304826787672
-   },
+  
    {
     "transactionId": 4576,
     "customerId": 10001,
@@ -3903,22 +2988,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 5219.66666666667
    },
-   {
-    "transactionId": 4580,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 5244.66666666667
-   },
-   {
-    "transactionId": 4581,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 5269.66666666667
-   },
+  
    {
     "transactionId": 4582,
     "customerId": 10000,
@@ -3959,30 +3029,8 @@
     "productPurchased": "Wireless Earphone",
     "price": 5294.66666666667
    },
-   {
-    "transactionId": 4587,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 5319.66666666667
-   },
-   {
-    "transactionId": 4588,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 5344.66666666667
-   },
-   {
-    "transactionId": 4589,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "01/16/2025",
-    "productPurchased": "Monitor",
-    "price": 964.4043027788236
-   },
+   
+   
    {
     "transactionId": 4590,
     "customerId": 10001,
@@ -4015,22 +3063,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 5369.66666666667
    },
-   {
-    "transactionId": 4594,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 5394.66666666667
-   },
-   {
-    "transactionId": 4595,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 5419.66666666667
-   },
+  
    {
     "transactionId": 4596,
     "customerId": 10000,
@@ -4071,22 +3104,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 5444.66666666667
    },
-   {
-    "transactionId": 4601,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 5469.66666666667
-   },
-   {
-    "transactionId": 4602,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 5494.66666666667
-   },
+   
    {
     "transactionId": 4603,
     "customerId": 10000,
@@ -4111,14 +3129,7 @@
     "productPurchased": "Tablet",
     "price": 532.8556747145144
    },
-   {
-    "transactionId": 4606,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "02/20/2025",
-    "productPurchased": "Router",
-    "price": 292.5431987296064
-   },
+   
    {
     "transactionId": 4607,
     "customerId": 10004,
@@ -4127,22 +3138,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 5519.66666666667
    },
-   {
-    "transactionId": 4608,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 5544.66666666667
-   },
-   {
-    "transactionId": 4609,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 5569.66666666667
-   },
+   
    {
     "transactionId": 4610,
     "customerId": 10000,
@@ -4183,22 +3179,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 5594.66666666667
    },
-   {
-    "transactionId": 4615,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 5619.66666666667
-   },
-   {
-    "transactionId": 4616,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 5644.66666666667
-   },
+ 
    {
     "transactionId": 4617,
     "customerId": 10000,
@@ -4239,38 +3220,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 5669.66666666667
    },
-   {
-    "transactionId": 4622,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 5694.66666666667
-   },
-   {
-    "transactionId": 4623,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 5719.66666666667
-   },
-   {
-    "transactionId": 4624,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "11/16/2023",
-    "productPurchased": "Monitor",
-    "price": 262.4048692781006
-   },
-   {
-    "transactionId": 4625,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "04/14/2023",
-    "productPurchased": "Mouse",
-    "price": 969.0973332255666
-   },
+   
    {
     "transactionId": 4626,
     "customerId": 10002,
@@ -4295,22 +3245,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 5744.66666666667
    },
-   {
-    "transactionId": 4629,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 5769.66666666667
-   },
-   {
-    "transactionId": 4630,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 5794.66666666667
-   },
+   
    {
     "transactionId": 4631,
     "customerId": 10000,
@@ -4351,22 +3286,7 @@
     "productPurchased": "Wireless Earphone",
     "price": 5819.66666666667
    },
-   {
-    "transactionId": 4636,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 5844.66666666667
-   },
-   {
-    "transactionId": 4637,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 5869.66666666667
-   },
+  
    {
     "transactionId": 4638,
     "customerId": 10000,
@@ -4390,1022 +3310,9 @@
     "purchaseDate": "03/09/2023",
     "productPurchased": "Tablet",
     "price": 276.8516267942569
-   },
-   {
-    "transactionId": 4641,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "11/16/2023",
-    "productPurchased": "Router",
-    "price": 581.8941881641888
-   },
-   {
-    "transactionId": 4642,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 5894.66666666667
-   },
-   {
-    "transactionId": 4643,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 5919.66666666667
-   },
-   {
-    "transactionId": 4644,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 5944.66666666667
-   },
-   {
-    "transactionId": 4645,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "08/15/2024",
-    "productPurchased": "Monitor",
-    "price": 856.0793237553535
-   },
-   {
-    "transactionId": 4646,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "06/27/2024",
-    "productPurchased": "Mouse",
-    "price": 600.4585230494288
-   },
-   {
-    "transactionId": 4647,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "01/23/2025",
-    "productPurchased": "Tablet",
-    "price": 524.199263277532
-   },
-   {
-    "transactionId": 4648,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "04/03/2022",
-    "productPurchased": "Router",
-    "price": 407.10490643317144
-   },
-   {
-    "transactionId": 4649,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 5969.66666666667
-   },
-   {
-    "transactionId": 4650,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 5994.66666666667
-   },
-   {
-    "transactionId": 4651,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 6019.66666666667
-   },
-   {
-    "transactionId": 4652,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "02/15/2025",
-    "productPurchased": "Monitor",
-    "price": 812.4976931628024
-   },
-   {
-    "transactionId": 4653,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "02/15/2023",
-    "productPurchased": "Mouse",
-    "price": 826.5730374778269
-   },
-   {
-    "transactionId": 4654,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "10/25/2024",
-    "productPurchased": "Tablet",
-    "price": 889.1854831938437
-   },
-   {
-    "transactionId": 4655,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "01/10/2022",
-    "productPurchased": "Router",
-    "price": 60.85847274139896
-   },
-   {
-    "transactionId": 4656,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 6044.66666666667
-   },
-   {
-    "transactionId": 4657,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 6069.66666666667
-   },
-   {
-    "transactionId": 4658,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 6094.66666666667
-   },
-   {
-    "transactionId": 4659,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "03/15/2023",
-    "productPurchased": "Monitor",
-    "price": 522.6968854504825
-   },
-   {
-    "transactionId": 4660,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "11/02/2024",
-    "productPurchased": "Mouse",
-    "price": 282.68288150666643
-   },
-   {
-    "transactionId": 4661,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "12/25/2022",
-    "productPurchased": "Tablet",
-    "price": 334.4329057445469
-   },
-   {
-    "transactionId": 4662,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "06/03/2024",
-    "productPurchased": "Router",
-    "price": 929.3873456718587
-   },
-   {
-    "transactionId": 4663,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 6119.66666666667
-   },
-   {
-    "transactionId": 4664,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 6144.66666666667
-   },
-   {
-    "transactionId": 4665,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 6169.66666666667
-   },
-   {
-    "transactionId": 4666,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "08/30/2024",
-    "productPurchased": "Monitor",
-    "price": 939.0090602511654
-   },
-   {
-    "transactionId": 4667,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "06/10/2023",
-    "productPurchased": "Mouse",
-    "price": 165.40514950700165
-   },
-   {
-    "transactionId": 4668,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "01/12/2022",
-    "productPurchased": "Tablet",
-    "price": 91.4255021068912
-   },
-   {
-    "transactionId": 4669,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "01/11/2023",
-    "productPurchased": "Router",
-    "price": 422.85610139229306
-   },
-   {
-    "transactionId": 4670,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 6194.66666666667
-   },
-   {
-    "transactionId": 4671,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 6219.66666666667
-   },
-   {
-    "transactionId": 4672,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 6244.66666666667
-   },
-   {
-    "transactionId": 4673,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "02/08/2024",
-    "productPurchased": "Monitor",
-    "price": 552.7082709966546
-   },
-   {
-    "transactionId": 4674,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "12/24/2024",
-    "productPurchased": "Mouse",
-    "price": 569.9866822949394
-   },
-   {
-    "transactionId": 4675,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "08/21/2023",
-    "productPurchased": "Tablet",
-    "price": 312.717346372025
-   },
-   {
-    "transactionId": 4676,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "01/04/2022",
-    "productPurchased": "Router",
-    "price": 157.7149917651281
-   },
-   {
-    "transactionId": 4677,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 6269.66666666667
-   },
-   {
-    "transactionId": 4678,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 6294.66666666667
-   },
-   {
-    "transactionId": 4679,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 6319.66666666667
-   },
-   {
-    "transactionId": 4680,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "05/26/2024",
-    "productPurchased": "Monitor",
-    "price": 223.61755111699463
-   },
-   {
-    "transactionId": 4681,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "08/11/2023",
-    "productPurchased": "Mouse",
-    "price": 25.730475674542884
-   },
-   {
-    "transactionId": 4682,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "04/11/2022",
-    "productPurchased": "Tablet",
-    "price": 821.3316270007715
-   },
-   {
-    "transactionId": 4683,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "08/19/2024",
-    "productPurchased": "Router",
-    "price": 29.891338776012613
-   },
-   {
-    "transactionId": 4684,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 6344.66666666667
-   },
-   {
-    "transactionId": 4685,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 6369.66666666667
-   },
-   {
-    "transactionId": 4686,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 6394.66666666667
-   },
-   {
-    "transactionId": 4687,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "04/28/2023",
-    "productPurchased": "Monitor",
-    "price": 187.83938456741632
-   },
-   {
-    "transactionId": 4688,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "12/10/2022",
-    "productPurchased": "Mouse",
-    "price": 931.0146708732095
-   },
-   {
-    "transactionId": 4689,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "11/16/2022",
-    "productPurchased": "Tablet",
-    "price": 942.2088899926299
-   },
-   {
-    "transactionId": 4690,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "04/20/2024",
-    "productPurchased": "Router",
-    "price": 31.024969541415384
-   },
-   {
-    "transactionId": 4691,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 6419.66666666667
-   },
-   {
-    "transactionId": 4692,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 6444.66666666667
-   },
-   {
-    "transactionId": 4693,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 6469.66666666667
-   },
-   {
-    "transactionId": 4694,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "09/28/2024",
-    "productPurchased": "Monitor",
-    "price": 543.4099614659608
-   },
-   {
-    "transactionId": 4695,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "01/04/2024",
-    "productPurchased": "Mouse",
-    "price": 460.6528328629966
-   },
-   {
-    "transactionId": 4696,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "04/12/2023",
-    "productPurchased": "Tablet",
-    "price": 45.3074445124082
-   },
-   {
-    "transactionId": 4697,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "07/20/2024",
-    "productPurchased": "Router",
-    "price": 104.23857571303868
-   },
-   {
-    "transactionId": 4698,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 6494.66666666667
-   },
-   {
-    "transactionId": 4699,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 6519.66666666667
-   },
-   {
-    "transactionId": 4700,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 6544.66666666667
-   },
-   {
-    "transactionId": 4701,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "11/09/2022",
-    "productPurchased": "Monitor",
-    "price": 843.8383491746656
-   },
-   {
-    "transactionId": 4702,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "05/12/2023",
-    "productPurchased": "Mouse",
-    "price": 365.2213112734824
-   },
-   {
-    "transactionId": 4703,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "02/22/2022",
-    "productPurchased": "Tablet",
-    "price": 476.85606925216496
-   },
-   {
-    "transactionId": 4704,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "03/11/2024",
-    "productPurchased": "Router",
-    "price": 879.1441101316512
-   },
-   {
-    "transactionId": 4705,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 6569.66666666667
-   },
-   {
-    "transactionId": 4706,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 6594.66666666667
-   },
-   {
-    "transactionId": 4707,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 6619.66666666667
-   },
-   {
-    "transactionId": 4708,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "07/04/2022",
-    "productPurchased": "Monitor",
-    "price": 363.9165438087653
-   },
-   {
-    "transactionId": 4709,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "02/13/2022",
-    "productPurchased": "Mouse",
-    "price": 360.91158003356577
-   },
-   {
-    "transactionId": 4710,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "12/20/2024",
-    "productPurchased": "Tablet",
-    "price": 14.156138597809555
-   },
-   {
-    "transactionId": 4711,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "08/21/2023",
-    "productPurchased": "Router",
-    "price": 141.00220594694
-   },
-   {
-    "transactionId": 4712,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 6644.66666666667
-   },
-   {
-    "transactionId": 4713,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 6669.66666666667
-   },
-   {
-    "transactionId": 4714,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 6694.66666666667
-   },
-   {
-    "transactionId": 4715,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "12/21/2024",
-    "productPurchased": "Monitor",
-    "price": 999.9507185294115
-   },
-   {
-    "transactionId": 4716,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "02/21/2022",
-    "productPurchased": "Mouse",
-    "price": 319.3110912851493
-   },
-   {
-    "transactionId": 4717,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "12/24/2022",
-    "productPurchased": "Tablet",
-    "price": 814.3540460605244
-   },
-   {
-    "transactionId": 4718,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "11/04/2022",
-    "productPurchased": "Router",
-    "price": 877.7883327085771
-   },
-   {
-    "transactionId": 4719,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 6719.66666666667
-   },
-   {
-    "transactionId": 4720,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 6744.66666666667
-   },
-   {
-    "transactionId": 4721,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 6769.66666666667
-   },
-   {
-    "transactionId": 4722,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "09/23/2022",
-    "productPurchased": "Monitor",
-    "price": 283.4578480514742
-   },
-   {
-    "transactionId": 4723,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "02/08/2023",
-    "productPurchased": "Mouse",
-    "price": 491.019400465253
-   },
-   {
-    "transactionId": 4724,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "02/13/2022",
-    "productPurchased": "Tablet",
-    "price": 177.04722859123774
-   },
-   {
-    "transactionId": 4725,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "11/20/2022",
-    "productPurchased": "Router",
-    "price": 614.7584773315693
-   },
-   {
-    "transactionId": 4726,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 6794.66666666667
-   },
-   {
-    "transactionId": 4727,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 6819.66666666667
-   },
-   {
-    "transactionId": 4728,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 6844.66666666667
-   },
-   {
-    "transactionId": 4729,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "03/29/2023",
-    "productPurchased": "Monitor",
-    "price": 535.5470787066124
-   },
-   {
-    "transactionId": 4730,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "12/05/2023",
-    "productPurchased": "Mouse",
-    "price": 888.0768151471074
-   },
-   {
-    "transactionId": 4731,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "09/03/2023",
-    "productPurchased": "Tablet",
-    "price": 907.5886849192025
-   },
-   {
-    "transactionId": 4732,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "08/06/2024",
-    "productPurchased": "Router",
-    "price": 372.73769956726164
-   },
-   {
-    "transactionId": 4733,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 6869.66666666667
-   },
-   {
-    "transactionId": 4734,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 6894.66666666667
-   },
-   {
-    "transactionId": 4735,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 6919.66666666667
-   },
-   {
-    "transactionId": 4736,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "05/27/2023",
-    "productPurchased": "Monitor",
-    "price": 663.5922802390073
-   },
-   {
-    "transactionId": 4737,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "12/12/2022",
-    "productPurchased": "Mouse",
-    "price": 742.3899623471804
-   },
-   {
-    "transactionId": 4738,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "01/13/2023",
-    "productPurchased": "Tablet",
-    "price": 658.3251936642457
-   },
-   {
-    "transactionId": 4739,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "12/03/2023",
-    "productPurchased": "Router",
-    "price": 548.1705372998774
-   },
-   {
-    "transactionId": 4740,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 6944.66666666667
-   },
-   {
-    "transactionId": 4741,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 6969.66666666667
-   },
-   {
-    "transactionId": 4742,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 6994.66666666667
-   },
-   {
-    "transactionId": 4743,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "07/09/2024",
-    "productPurchased": "Monitor",
-    "price": 53.096153126393276
-   },
-   {
-    "transactionId": 4744,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "10/08/2022",
-    "productPurchased": "Mouse",
-    "price": 517.6490257786388
-   },
-   {
-    "transactionId": 4745,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "08/02/2023",
-    "productPurchased": "Tablet",
-    "price": 79.84115143433512
-   },
-   {
-    "transactionId": 4746,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "12/31/2023",
-    "productPurchased": "Router",
-    "price": 687.7529781697282
-   },
-   {
-    "transactionId": 4747,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 7019.66666666667
-   },
-   {
-    "transactionId": 4748,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 7044.66666666667
-   },
-   {
-    "transactionId": 4749,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 7069.66666666667
-   },
-   {
-    "transactionId": 4750,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "03/30/2022",
-    "productPurchased": "Monitor",
-    "price": 756.101282541022
-   },
-   {
-    "transactionId": 4751,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "09/16/2022",
-    "productPurchased": "Mouse",
-    "price": 956.4682799322771
-   },
-   {
-    "transactionId": 4752,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "06/29/2024",
-    "productPurchased": "Tablet",
-    "price": 798.897702685557
-   },
-   {
-    "transactionId": 4753,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "12/13/2022",
-    "productPurchased": "Router",
-    "price": 805.0459763399684
-   },
-   {
-    "transactionId": 4754,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 7094.66666666667
-   },
-   {
-    "transactionId": 4755,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 7119.66666666667
-   },
-   {
-    "transactionId": 4756,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 7144.66666666667
-   },
-   {
-    "transactionId": 4757,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "02/07/2024",
-    "productPurchased": "Monitor",
-    "price": 165.40043133064222
-   },
-   {
-    "transactionId": 4758,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "10/10/2023",
-    "productPurchased": "Mouse",
-    "price": 307.3559075635772
-   },
-   {
-    "transactionId": 4759,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "12/22/2023",
-    "productPurchased": "Tablet",
-    "price": 401.8945233720462
-   },
-   {
-    "transactionId": 4760,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "10/18/2022",
-    "productPurchased": "Router",
-    "price": 849.398655646177
-   },
-   {
-    "transactionId": 4761,
-    "customerId": 10004,
-    "customerName": "Shyam Verma",
-    "purchaseDate": "09/15/2024",
-    "productPurchased": "Wireless Earphone",
-    "price": 7169.66666666667
-   },
-   {
-    "transactionId": 4762,
-    "customerId": 10005,
-    "customerName": "Shivani",
-    "purchaseDate": "02/25/2025",
-    "productPurchased": "Keypad",
-    "price": 7194.66666666667
-   },
-   {
-    "transactionId": 4763,
-    "customerId": 10006,
-    "customerName": "Neha",
-    "purchaseDate": "02/23/2025",
-    "productPurchased": "Dictationary",
-    "price": 7219.66666666667
-   },
-   {
-    "transactionId": 4764,
-    "customerId": 10000,
-    "customerName": "Amit Tiwari",
-    "purchaseDate": "01/21/2022",
-    "productPurchased": "Monitor",
-    "price": 390.2659734974556
-   },
-   {
-    "transactionId": 4765,
-    "customerId": 10001,
-    "customerName": "Vikram Singh",
-    "purchaseDate": "05/26/2024",
-    "productPurchased": "Mouse",
-    "price": 594.0264890140048
-   },
-   {
-    "transactionId": 4766,
-    "customerId": 10002,
-    "customerName": "Ayesha Kapoor",
-    "purchaseDate": "10/30/2022",
-    "productPurchased": "Tablet",
-    "price": 683.0805333949514
-   },
-   {
-    "transactionId": 4767,
-    "customerId": 10003,
-    "customerName": "Neeraj Verma",
-    "purchaseDate": "03/23/2023",
-    "productPurchased": "Router",
-    "price": 356.2720644668466
    }
+
+
+
   ]
   

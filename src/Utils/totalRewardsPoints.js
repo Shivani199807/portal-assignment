@@ -10,35 +10,28 @@ import { monthlyRewardPoints } from "./monthlyRewardPoints";
  * @returns {Array} An array of objects containing customerId,customerName,totalRewardPoints,id
  *
  */
+
 export const lastThreeMonthsRewardPoints = (monthlyRewards) => {
   const monthlyRewardsPoint = monthlyRewardPoints(monthlyRewards);
 
-  const allCustomers = monthlyRewardsPoint.reduce(
-    (acc, { customerId, customerName }) => {
+  // Aggregate reward points for each customer
+  const rewardsData = monthlyRewardsPoint.reduce(
+    (acc, { customerId, customerName, totalRewardPoints }) => {
       if (!acc[customerId]) {
-        acc[customerId] = { customerId, customerName, totalRewardPoints: 0 }; // Default to 0
+        acc[customerId] = {
+          id: customerId,
+          customerId,
+          customerName,
+          totalRewardPoints: 0,
+        }; // Ensure customer exists
       }
+
+      acc[customerId].totalRewardPoints += totalRewardPoints;
+
       return acc;
     },
     {}
   );
-
-  // Aggregate reward points for each customer
-  const rewardsData = monthlyRewardsPoint.reduce(
-    (acc, { customerId, totalRewardPoints }) => {
-      const key = `${customerId}`;
-
-      if (!acc[key]) {
-        acc[key] = { ...allCustomers[key], id: customerId }; // Ensure customer exists
-      }
-
-      acc[key].totalRewardPoints += totalRewardPoints;
-      acc[key].id = customerId;
-
-      return acc;
-    },
-    { ...allCustomers }
-  ); // Initialize with all customers
 
   return Object.values(rewardsData);
 };

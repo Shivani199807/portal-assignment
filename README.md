@@ -63,20 +63,11 @@ A web application built using **React.js** that calculates and displays rewards 
 - **Main Page - Total Rewards**
 
 
-All Transactions
+All Transactions,Monthly Total Transactions,TotalTransactions
 
 
-<img src="./public/assets/All Transactions.png" alt="Screenshot" width="400" />
+<img src="./public/assets/Transactions and Rewards.jpeg" alt="Screenshot" width="500" />
 
-Monthly Total Transactions
-
-
-<img src="./public/assets/MonthlyTransactions.png" alt="Screenshot" width="400" />
-
-TotalTransactions
-
-
-<img src="./public/assets/totalRewards.png" alt="Screenshot" width="400" />
 
 Filter By Date
 

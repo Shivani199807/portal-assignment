@@ -15,7 +15,6 @@ import Box from "@mui/material/Box";
  * @returns {JSX.Element}  // component table return 
  */
 const Table = ({ rows, column, dataTestId }) => {
-  
   return (
     <Box
       sx={{
@@ -30,19 +29,24 @@ const Table = ({ rows, column, dataTestId }) => {
         rows={rows}
         columns={column}
         pageSizeOptions={[5]}
+        columnHeaderHeight={40}
+        rowHeight={40}
         sx={{
           "& .MuiDataGrid-cell": {
-            padding: 2,
+            padding: 1,
           },
         }}
+        // getRowHeight={() => 'auto'}
+
+        // virtualizeColumnsWithAutoRowHeight
+
+        disableRowSelectionOnClick
         initialState={{
           pagination: {
             paginationModel: {
               pageSize: 5,
             },
           },
-         
-          
         }}
         data-testid={dataTestId}
         disableColumnFilter

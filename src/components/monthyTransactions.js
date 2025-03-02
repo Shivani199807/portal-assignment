@@ -26,19 +26,6 @@ export const columns = [
   },
 
   {
-    field: "month",
-    headerName: "Month",
-    headerClassName: "tableHeader",
-    flex: 1,
-  },
-  {
-    field: "year",
-    headerName: "Year",
-    headerClassName: "tableHeader",
-    flex: 1,
-  },
-
-  {
     field: "totalRewardPoints",
     headerName: "Reward Points",
     headerClassName: "tableHeader",

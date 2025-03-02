@@ -1,7 +1,6 @@
 import rewardPoints from "./rewardPoints";
-import dayjs from "dayjs";
-import _ from "lodash"; // ✅ Import lodash for deep cloning
 
+import sortData from "./sortData";
 /**
  * Formats a price value to ensure two decimal places.
  *
@@ -9,7 +8,7 @@ import _ from "lodash"; // ✅ Import lodash for deep cloning
  * @returns {string} The formatted price as a string with two decimal places.
  */
 const formatPrice = (price) => {
-    if (typeof price !== "number" || isNaN(price)) return 0.00;
+  if (typeof price !== "number" || isNaN(price)) return 0.0;
   return price % 1 === 0 ? `${price.toFixed(2)}` : price?.toFixed(2);
 };
 
@@ -29,23 +28,14 @@ const formatPrice = (price) => {
 const transactions = (data) => {
   if (!Array.isArray(data)) return [];
 
-  //  Deep clone the data to avoid mutating the original array
-  const clonedData = _.cloneDeep(data);
-
-  //  Sort by `purchaseDate` in descending order
-  clonedData.sort((a, b) => {
-    const dateA = dayjs(a.purchaseDate, "MM/DD/YY").valueOf();
-    const dateB = dayjs(b.purchaseDate, "MM/DD/YY").valueOf();
-    return dateB - dateA; 
-  });
-
-  // ✅ Process transactions
-  return clonedData.map((item) => ({
+  // Process transactions
+  const transactionData = data.map((item) => ({
     ...item,
     rewardPoints: rewardPoints(item),
     id: item.transactionId,
     price: `$${formatPrice(item.price)}`,
   }));
+  return sortData(transactionData, "date", "MM/DD/YY");
 };
 
 export default transactions;
