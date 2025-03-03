@@ -1,13 +1,6 @@
 .App {
   text-align: center;
- 
-  
-    background: linear-gradient(to bottom, #f0f0f0, #ffffff);
-   
-  
-    
-  
-  
+  background: linear-gradient(to bottom, #f0f0f0, #ffffff);
 }
 
 .App-logo {
@@ -22,15 +15,13 @@
 }
 
 .App-header {
- 
   min-height: 100vh;
-  color:black;
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  
 }
 
 .App-link {

@@ -28,7 +28,6 @@ function App() {
               setDateFilter={setDateFilter}
               fetchData={fetchData}
             />
-
             <AllTransactions totalTransactions={result}></AllTransactions>
             <MonthlyRewardPoints monthlyTransactions={result} />
             <TotalRewardsPoints transactions={result} />

@@ -8,10 +8,8 @@
 
 export const filterData = (dataArray, dateState) => {
   if (!dataArray || dataArray.length === 0) return [];
-
   const startDate = new Date(dateState.fromDate);
   const endDate = new Date(dateState.toDate);
-
   return dataArray.filter((data) => {
     const date = new Date(data.purchaseDate);
     return date >= startDate && date <= endDate;

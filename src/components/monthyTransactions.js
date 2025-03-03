@@ -19,7 +19,6 @@ export const columns = [
     headerClassName: "tableHeader",
     flex: 1,
   },
-
   {
     field: "totalRewardPoints",
     headerName: "Reward Points",
@@ -34,7 +33,7 @@ const MonthlyRewardPoints = ({ monthlyTransactions }) => {
   const splitByMonth = splitByMonths(monthlyRewardPoint);
 
   return (
-    <>
+    <div>
       <Heading text={"Monthly Transactions"} />
       {Object.keys(splitByMonth).map((monthKey) => (
         <div key={monthKey}>
@@ -46,7 +45,7 @@ const MonthlyRewardPoints = ({ monthlyTransactions }) => {
           />
         </div>
       ))}
-    </>
+    </div>
   );
 };
 

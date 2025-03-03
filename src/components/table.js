@@ -46,7 +46,7 @@ const Table = ({ rows, column, dataTestId }) => {
   );
 };
 Table.propTypes = {
-  columns: PropTypes.array.isRequired,
+  column: PropTypes.array.isRequired,
   rows: PropTypes.array.isRequired,
   dataTestId: PropTypes.string,
 };

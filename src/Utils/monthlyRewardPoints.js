@@ -10,30 +10,27 @@ import sortData from "./sortData";
 
 export const monthlyRewardPoints = (monthlyTransactions) => {
   const calculatedRewardPoints = transactions(monthlyTransactions);
-  const data =
-    calculatedRewardPoints &&
-    calculatedRewardPoints.reduce(
-      (acc, { customerId, customerName, purchaseDate, rewardPoints, id }) => {
-        const formattedDate = dayjs(purchaseDate, "MM/DD/YY");
-        const year = parseInt(formattedDate.format("YYYY"), 10);
-        const month = parseInt(formattedDate.format("M"), 10);
-        const key = `${customerId}-${year}-${month}`;
-        if (!acc[key]) {
-          acc[key] = {
-            customerId,
-            customerName,
-            year,
-            month,
-            totalRewardPoints: 0,
-            id: id,
-          };
-        }
-        acc[key].totalRewardPoints = acc[key].totalRewardPoints + rewardPoints;
-
-        return acc;
-      },
-      {}
-    );
+  const data = calculatedRewardPoints?.reduce(
+    (acc, { customerId, customerName, purchaseDate, rewardPoints, id }) => {
+      const formattedDate = dayjs(purchaseDate, "MM/DD/YY");
+      const year = parseInt(formattedDate.format("YYYY"), 10);
+      const month = parseInt(formattedDate.format("M"), 10);
+      const key = `${customerId}-${year}-${month}`;
+      if (!acc[key]) {
+        acc[key] = {
+          customerId,
+          customerName,
+          year,
+          month,
+          totalRewardPoints: 0,
+          id: id,
+        };
+      }
+      acc[key].totalRewardPoints = acc[key].totalRewardPoints + rewardPoints;
+      return acc;
+    },
+    {}
+  );
 
   return Object.values(data || []);
 };
@@ -46,9 +43,7 @@ export const monthlyRewardPoints = (monthlyTransactions) => {
 
 export const splitByMonths = (data1) => {
   if (!Array.isArray(data1)) return {};
-
   const data = {};
-
   for (const {
     customerId,
     customerName,
@@ -66,7 +61,6 @@ export const splitByMonths = (data1) => {
     data[key].push({
       customerId,
       customerName,
-
       totalRewardPoints,
       id,
     });

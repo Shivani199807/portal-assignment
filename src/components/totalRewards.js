@@ -16,7 +16,6 @@ const columns = [
     headerClassName: "tableHeader",
     flex: 1,
   },
-
   {
     field: "totalRewardPoints",
     headerName: "Total Reward Points",
@@ -28,7 +27,6 @@ const columns = [
 
 const TotalRewardsPoints = ({ transactions }) => {
   const totalRewardsPoints = lastThreeMonthsRewardPoints(transactions);
-
   return (
     <div>
       <Heading text={"Total Rewards"} />

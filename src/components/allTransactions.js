@@ -17,14 +17,12 @@ export const columns = [
     headerClassName: "tableHeader",
     flex: 1,
   },
-
   {
     field: "purchaseDate",
     headerName: "Purchase Date",
     headerClassName: "tableHeader",
     flex: 1,
   },
-
   {
     field: "productPurchased",
     headerName: "Product Purchased",
@@ -52,7 +50,6 @@ const AllTransactions = ({ totalTransactions }) => {
   return (
     <div>
       <Heading text={"All Transactions"} />
-
       <Table
         column={columns}
         rows={sortData(transactionsData, "date", "MM/DD/YY")}
