@@ -2,12 +2,8 @@ import Heading from "./heading";
 import Table from "./table";
 import PropTypes from "prop-types";
 import transactions from "../Utils/transactions";
+import sortData from "../Utils/sortData";
 
-/**
- * Defines the column structure for the Table component.
- * @constant
- * @type {Array<{ field: string, headerName: string, headerClassName: string, flex: number, align?: string }>}
- */
 export const columns = [
   {
     field: "transactionId",
@@ -27,8 +23,6 @@ export const columns = [
     headerName: "Purchase Date",
     headerClassName: "tableHeader",
     flex: 1,
-   
-   
   },
 
   {
@@ -36,7 +30,6 @@ export const columns = [
     headerName: "Product Purchased",
     headerClassName: "tableHeader",
     flex: 1,
-   
   },
   {
     field: "price",
@@ -54,29 +47,18 @@ export const columns = [
   },
 ];
 
-/**
- * Displays a table containing all customer transactions.
- * The data is processed using the `transactions` utility function before rendering.
- *
- * @component
- * @param {Object} props - React component props.
- * @param {Array<{ transactionId: number, customerName: string, purchaseDate: string, productPurchased: string, price: number, rewardPoints: number }>} props.totalTransactions - Array of all customer transactions.
- * @returns {JSX.Element} The rendered AllTransactions component.
- */
-
 const AllTransactions = ({ totalTransactions }) => {
   const transactionsData = transactions(totalTransactions || []);
   return (
-    <>
+    <div>
       <Heading text={"All Transactions"} />
 
       <Table
         column={columns}
-        rows={transactionsData}
+        rows={sortData(transactionsData, "date", "MM/DD/YY")}
         dataTestId={"allTransactions"}
-       
       />
-    </>
+    </div>
   );
 };
 AllTransactions.propTypes = {

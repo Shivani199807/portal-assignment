@@ -11,5 +11,7 @@ export const fetchRewardData = async (url) => {
   } catch (error) {
     logger.error(`${error}`);
     throw error;
+  } finally {
+    //console.log("hey")
   }
 };

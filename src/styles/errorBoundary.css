@@ -1,62 +1,55 @@
-/* Centered full-page error container */
 .error-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.error-box {
+  text-align: center;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.5s ease-in-out;
+  max-width: 400px;
+}
+
+.error-title {
+  font-size: 22px;
+  color: #d9534f;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.retry-button {
+  background-color: #d9534f;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.retry-button:hover {
+  background-color: #c9302c;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
   }
-  
-  /* Error box with smooth UI */
-  .error-box {
-    text-align: center;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-    animation: fadeIn 0.5s ease-in-out;
-    max-width: 400px;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  /* Error title with a pop of color */
-  .error-title {
-    font-size: 22px;
-    color: #d9534f;
-    margin-bottom: 10px;
-  }
-  
-  /* Error message */
-  .error-message {
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  /* Retry button with hover effect */
-  .retry-button {
-    background-color: #d9534f;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 14px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background 0.3s ease-in-out;
-  }
-  
-  .retry-button:hover {
-    background-color: #c9302c;
-  }
-  
-  /* Fade-in animation */
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(-10px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
+}

@@ -1,15 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "../styles/errorBoundary.css"; // Importing external CSS
-/**
- *
- * This component works as wrapper error handling component in application
- *
- * @param {Object} props //The component Props
- * @param {string} props.error // returns the error message
- * @param {React.ReactNode} props.children // returns the app component if no error
- * @returns {JSX.Element} //render the error component if error else the app component
- */
+import "../styles/errorBoundary.css";
+
 const ErrorBoundary = ({ error, children }) => {
   if (error) {
     return (

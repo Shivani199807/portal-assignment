@@ -9,7 +9,6 @@ describe("App Component", () => {
   beforeEach(() => {
     jest.clearAllMocks();
   });
-
   test("renders Loader when loading is true", () => {
     useRewardData.mockReturnValue({
       result: [],
@@ -19,9 +18,7 @@ describe("App Component", () => {
       setDateFilter: jest.fn(),
       fetchData: jest.fn(),
     });
-
     render(<App />);
-
     expect(screen.getByTestId("loader")).toBeInTheDocument();
   });
 
@@ -34,9 +31,7 @@ describe("App Component", () => {
       setDateFilter: jest.fn(),
       fetchData: jest.fn(),
     });
-
     render(<App />);
-
     expect(screen.getByText("Something went wrong")).toBeInTheDocument();
   });
 });

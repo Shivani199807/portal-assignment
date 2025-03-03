@@ -1,34 +1,21 @@
 import React from "react";
 import { TextField, Button, Box } from "@mui/material";
-
 import dayjs from "dayjs";
 import PropTypes from "prop-types";
 import Heading from "./heading";
-/**
- * A component for selecting a date range with "From Date" and "To Date" inputs.
- * It allows filtering data based on the selected date range .
- *
- * @component
- * @param {Object} props - React component props.
- * @param {{ fromDate: string, toDate: string }} props.dateFilter - The current date filter values.
- * @param {Function} props.setDateFilter - Function to update the date filter state.
- * @param {Function} props.fetchData - Function to fetch data based on the selected date range.
- * @returns {JSX.Element} The rendered DateComponent.
- */
+
+// This component helps to select dateTo and datefrom
+
 const DateComponent = ({ dateFilter, setDateFilter, fetchData }) => {
   const handleSetDate = (e, dateType) => {
     const { value } = e.target;
     const formattedDate = dayjs(value).format("MM-DD-YYYY");
-    /**
-     *set the datefilter and fromDate not after the toDate.
-     */
+
     setDateFilter((prev) => {
       const newFilter = { ...prev, [dateType]: formattedDate };
-
       if (dayjs(newFilter.fromDate).isAfter(newFilter.toDate)) {
         return prev;
       }
-
       return newFilter;
     });
   };

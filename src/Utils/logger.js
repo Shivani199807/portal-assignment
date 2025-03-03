@@ -1,6 +1,3 @@
-/**
- * This component logs the error and the information
- */
 const logger = {
   log: (message) => {
     console.log(`[INFO]: ${message}`);

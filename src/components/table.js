@@ -4,16 +4,6 @@ import PropTypes from "prop-types";
 import { DataGrid } from "@mui/x-data-grid";
 import Box from "@mui/material/Box";
 
-/**
- 
- * This component renders a table using Material UI's DataGrid.
- * 
- * @param {Object} props -table props
- * @param {Array}  props.rows // rows containing data
- * @param {Array} props.column // columns contain header data
- * @param {String} [props.dataTestId]  // unique id for elements
- * @returns {JSX.Element}  // component table return 
- */
 const Table = ({ rows, column, dataTestId }) => {
   return (
     <Box
@@ -36,10 +26,6 @@ const Table = ({ rows, column, dataTestId }) => {
             padding: 1,
           },
         }}
-        // getRowHeight={() => 'auto'}
-
-        // virtualizeColumnsWithAutoRowHeight
-
         disableRowSelectionOnClick
         initialState={{
           pagination: {
@@ -61,7 +47,8 @@ const Table = ({ rows, column, dataTestId }) => {
 };
 Table.propTypes = {
   columns: PropTypes.array.isRequired,
-  data: PropTypes.array.isRequired,
+  rows: PropTypes.array.isRequired,
+  dataTestId: PropTypes.string,
 };
 
 export default Table;

@@ -1,14 +1,8 @@
 import { monthlyRewardPoints } from "./monthlyRewardPoints";
 /**
- * Calculates the total reward points for each customer over the last three months.
- *
- * @param {Array} monthlyRewards - An array of transaction data for the last three months.
- * @param {string} monthlyRewards[].customerId - The unique identifier for the customer.
- * @param {string} monthlyRewards[].customerName - The name of the customer.
- * @param {number} monthlyRewards[].totalRewardPoints - The reward points earned by the customer in a given month.
- *
+ * Calculates the total reward points for each customer .
+ * @param {Array} monthlyRewards - An array of transaction data .
  * @returns {Array} An array of objects containing customerId,customerName,totalRewardPoints,id
- *
  */
 
 export const lastThreeMonthsRewardPoints = (monthlyRewards) => {
@@ -23,11 +17,9 @@ export const lastThreeMonthsRewardPoints = (monthlyRewards) => {
           customerId,
           customerName,
           totalRewardPoints: 0,
-        }; // Ensure customer exists
+        };
       }
-
       acc[customerId].totalRewardPoints += totalRewardPoints;
-
       return acc;
     },
     {}

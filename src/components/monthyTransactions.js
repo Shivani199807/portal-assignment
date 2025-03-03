@@ -6,11 +6,6 @@ import {
   splitByMonths,
 } from "../Utils/monthlyRewardPoints";
 
-/**
- * Defines the column structure for the Table component.
- * @constant
- * @type {Array<{ field: string, headerName: string, headerClassName: string, flex: number, align?: string }>}
- */
 export const columns = [
   {
     field: "customerId",
@@ -33,15 +28,7 @@ export const columns = [
     align: "right",
   },
 ];
-/**
- * Renders a table displaying the monthly reward points for customers.
- * The data is first processed to group transactions by months and then displayed.
- *
- * @component
- * @param {Object} props - React component props.
- * @param {Array<{ customerId: number, customerName: string, month: string, year: string, totalRewardPoints: number }>} props.monthlyTransactions - Array of monthly customer transactions.
- * @returns {JSX.Element} The rendered MonthlyRewardPoints component.
- */
+
 const MonthlyRewardPoints = ({ monthlyTransactions }) => {
   const monthlyRewardPoint = monthlyRewardPoints(monthlyTransactions, true);
   const splitByMonth = splitByMonths(monthlyRewardPoint);
@@ -62,6 +49,7 @@ const MonthlyRewardPoints = ({ monthlyTransactions }) => {
     </>
   );
 };
+
 MonthlyRewardPoints.propTypes = {
   monthlyTransactions: PropTypes.arrayOf(
     PropTypes.shape({

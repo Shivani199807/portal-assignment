@@ -9,41 +9,33 @@ import DateComponent from "./components/dateComponent";
 import ErrorBoundary from "./components/errBoundary";
 import { Container } from "@mui/material";
 
-/**
- * The main application component that manages and displays transaction data, reward points,
- * and filtering functionality.
- *
- * @returns {JSX.Element} The main application Page.
- */
 function App() {
   const { result, loading, error, dateFilter, setDateFilter, fetchData } =
     useRewardData();
 
   return (
-    <>
-      <ErrorBoundary error={error}>
-        <div className="App">
-          {loading ? (
-            <Loader />
-          ) : (
-            <Container>
-              <div style={{ fontSize: "40px", fontWeight: "bold" }}>
-                Reward Program
-              </div>
-              <DateComponent
-                dateFilter={dateFilter}
-                setDateFilter={setDateFilter}
-                fetchData={fetchData}
-              />
+    <ErrorBoundary error={error}>
+      <div className="App">
+        {loading ? (
+          <Loader />
+        ) : (
+          <Container>
+            <div style={{ fontSize: "40px", fontWeight: "bold" }}>
+              Reward Program
+            </div>
+            <DateComponent
+              dateFilter={dateFilter}
+              setDateFilter={setDateFilter}
+              fetchData={fetchData}
+            />
 
-              <AllTransactions totalTransactions={result}></AllTransactions>
-              <MonthlyRewardPoints monthlyTransactions={result} />
-              <TotalRewardsPoints transactions={result} />
-            </Container>
-          )}
-        </div>
-      </ErrorBoundary>
-    </>
+            <AllTransactions totalTransactions={result}></AllTransactions>
+            <MonthlyRewardPoints monthlyTransactions={result} />
+            <TotalRewardsPoints transactions={result} />
+          </Container>
+        )}
+      </div>
+    </ErrorBoundary>
   );
 }
 

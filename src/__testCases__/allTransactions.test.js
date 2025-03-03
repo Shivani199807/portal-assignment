@@ -49,15 +49,12 @@ test("renders transactions table data", () => {
   render(
     <AllTransactions totalTransactions={mockTransactions}></AllTransactions>
   );
-
   expect(screen.getByTestId("allTransactions")).toBeInTheDocument();
 });
 
 test("renders heading correctly", () => {
   render(<AllTransactions transactions={mockTransactions} />);
-
   const headingElement = screen.getByTestId("heading");
   expect(headingElement).toBeInTheDocument();
-
   expect(headingElement).toHaveTextContent("All Transactions", { exact: true });
 });
