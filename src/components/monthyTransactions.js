@@ -5,28 +5,7 @@ import {
   monthlyRewardPoints,
   splitByMonths,
 } from "../Utils/monthlyRewardPoints";
-
-export const columns = [
-  {
-    field: "customerId",
-    headerName: "Customer Id",
-    headerClassName: "tableHeader",
-    flex: 1,
-  },
-  {
-    field: "customerName",
-    headerName: "Customer Name",
-    headerClassName: "tableHeader",
-    flex: 1,
-  },
-  {
-    field: "totalRewardPoints",
-    headerName: "Reward Points",
-    headerClassName: "tableHeader",
-    flex: 1,
-    align: "right",
-  },
-];
+import { monthlyTransactionsColumns } from "../Utils/columnsconfig";
 
 const MonthlyRewardPoints = ({ monthlyTransactions }) => {
   const monthlyRewardPoint = monthlyRewardPoints(monthlyTransactions, true);
@@ -39,7 +18,7 @@ const MonthlyRewardPoints = ({ monthlyTransactions }) => {
         <div key={monthKey}>
           <h3>{`Transactions for ${monthKey}`}</h3>
           <Table
-            column={columns}
+            column={monthlyTransactionsColumns}
             rows={splitByMonth[monthKey]}
             dataTestId={"monthlyTransaction"}
           />

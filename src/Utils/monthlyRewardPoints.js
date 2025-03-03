@@ -67,11 +67,11 @@ export const splitByMonths = (data1) => {
   }
   return Object.fromEntries(
     //sort by month year
-    sortData(Object.entries(data), "date", "MMMM-YYYY").map(
+    sortData(Object.entries(data), "date","", "MMMM-YYYY").map(
       ([monthKey, transactions]) => [
         monthKey,
         // Sort by customerId
-        sortData(transactions, "id"),
+        sortData(transactions, "id","customerId"),
       ]
     )
   );

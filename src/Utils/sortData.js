@@ -1,17 +1,24 @@
 import dayjs from "dayjs";
 import _ from "lodash";
-
-const sortData = (transactions, sortType, dateType = "") => {
+/**
+ * 
+ * @param {Array} transactions 
+ * @param {String} sortType - this defines the type whether date or id
+ * @param {String} fieldName -this defines on what basis we have to sort basically the parameters
+ * @param {String} dateType  - date type mainly dd/mm/yy or mmmm-yyyy
+ * @returns {Array} -sorted data
+ */
+const sortData = (transactions, sortType, fieldName="",dateType = "") => {
   const clonedData = _.cloneDeep(transactions);
   if (sortType === "date") {
     return clonedData.sort((a, b) => {
-      const dateA = dayjs(a.purchaseDate, dateType).valueOf();
-      const dateB = dayjs(b.purchaseDate, dateType).valueOf();
+      const dateA = dayjs(fieldName?a[fieldName]:a[0], dateType).valueOf();
+      const dateB = dayjs(fieldName?b[fieldName]:b[0], dateType).valueOf();
       return dateB - dateA;
     });
   } else if (sortType === "id") {
-    return transactions.sort((a, b) =>
-      String(a.customerId).localeCompare(b.customerId)
+    return clonedData.sort((a, b) =>
+      String(a[fieldName]).localeCompare(b[fieldName])
     );
   }
 };

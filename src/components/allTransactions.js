@@ -3,47 +3,7 @@ import Table from "./table";
 import PropTypes from "prop-types";
 import transactions from "../Utils/transactions";
 import sortData from "../Utils/sortData";
-
-export const columns = [
-  {
-    field: "transactionId",
-    headerName: "Transaction ID",
-    headerClassName: "tableHeader",
-    flex: 1,
-  },
-  {
-    field: "customerName",
-    headerName: "Customer Name",
-    headerClassName: "tableHeader",
-    flex: 1,
-  },
-  {
-    field: "purchaseDate",
-    headerName: "Purchase Date",
-    headerClassName: "tableHeader",
-    flex: 1,
-  },
-  {
-    field: "productPurchased",
-    headerName: "Product Purchased",
-    headerClassName: "tableHeader",
-    flex: 1,
-  },
-  {
-    field: "price",
-    headerName: "Price",
-    headerClassName: "tableHeader",
-    flex: 1,
-    align: "right",
-  },
-  {
-    field: "rewardPoints",
-    headerName: "Reward Points",
-    headerClassName: "tableHeader",
-    flex: 1,
-    align: "right",
-  },
-];
+import { transactionColumns } from "../Utils/columnsconfig";
 
 const AllTransactions = ({ totalTransactions }) => {
   const transactionsData = transactions(totalTransactions || []);
@@ -51,8 +11,8 @@ const AllTransactions = ({ totalTransactions }) => {
     <div>
       <Heading text={"All Transactions"} />
       <Table
-        column={columns}
-        rows={sortData(transactionsData, "date", "MM/DD/YY")}
+        column={transactionColumns}
+        rows={sortData(transactionsData, "date","purchaseDate", "MM/DD/YY")}
         dataTestId={"allTransactions"}
       />
     </div>
