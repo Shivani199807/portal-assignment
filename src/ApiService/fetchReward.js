@@ -1,7 +1,7 @@
 import logger from "../Utils/logger";
 export const fetchRewardData = async (url) => {
   try {
-    const fetchData = await fetch(`${url}`);
+    const fetchData = await fetch(url);
     if (!fetchData.ok) {
       throw new Error(`HTTP error! Status: ${fetchData.status}`);
     }
@@ -9,7 +9,7 @@ export const fetchRewardData = async (url) => {
 
     return response;
   } catch (error) {
-    logger.error(`${error}`);
+    logger.error(error);
     throw error;
   } finally {
     //console.log("hey")

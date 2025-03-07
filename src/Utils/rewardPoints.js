@@ -4,9 +4,9 @@
  * @returns {number} The total reward points earned.
  */
 
-const rewardPoints = (data) => {
-  if (typeof data?.price !== "number" || isNaN(data?.price)) return 0;
-  const roundedPrice = Math.floor(data?.price);
+const rewardPoints = (price) => {
+  if (typeof price !== "number" || isNaN(price)) return 0;
+  const roundedPrice = Math.floor(price);
   if (roundedPrice > 100) {
     return 2 * (roundedPrice - 100) + 50;
   }

@@ -6,7 +6,7 @@ import sortData from "../Utils/sortData";
 import { transactionColumns } from "../Utils/columnsconfig";
 
 const AllTransactions = ({ totalTransactions }) => {
-  const transactionsData = transactions(totalTransactions || []);
+  const transactionsData = transactions(totalTransactions);
   return (
     <div>
       <Heading text={"All Transactions"} />

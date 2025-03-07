@@ -16,7 +16,7 @@ const ErrorBoundary = ({ error, children }) => {
     );
   }
 
-  return <>{children}</>;
+  return children;
 };
 
 ErrorBoundary.propTypes = {

@@ -6,6 +6,7 @@ import useRewardData from "../hooks/useRewardData";
 jest.mock("../hooks/useRewardData", () => jest.fn());
 
 describe("App Component", () => {
+
   beforeEach(() => {
     jest.clearAllMocks();
   });
